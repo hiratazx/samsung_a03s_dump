@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FactoryTest>
+
+
+<!--all: used for factory smmi autotest ...-->
+    <!--factory config data : boolean , string , int-->
+    <!--Battery test-->
+    <factorycfg  name="hq_battery_current_min_pass_value" value="500" type="int"/>
+    <!--Huaqin add for ACORN-1162 by zhouming at 2019/2/12 start-->
+    <factorycfg  name="hq_battery_current_min_pcba_pass_value" value="10" type="int"/>
+    <!--Huaqin add for ACORN-1162 by zhouming at 2019/2/12 end-->
+    <!--hs03s code for DEVAL5625-708 by gaojun at 2021/05/27 start" -->
+    <factorycfg  name="hq_battery_voltage_path" value="/sys/class/power_supply/usb/voltage_now" type="string"/>
+    <factorycfg  name="hq_battery_current_path" value="/sys/class/power_supply/battery/current_now" type="string"/>
+    <!--TabA7 Lite  code by tianran at 20200113 start-->
+    <factorycfg  name="hq_battery_voltage_unit_mv" value="true" type="boolean"/>
+    <factorycfg  name="hq_battery_current_unit_ma" value="false" type="boolean"/>
+    <!--hs03s code for DEVAL5625-708 by gaojun at 2021/05/27 end" -->
+    <!--TabA7 Lite  code by tianran at 20200113 start-->
+    <!--BackLight test-->
+    <!--Huaqin add for ACORN-1477 zhouming at 2019/3/6 start-->
+    <factorycfg  name="hq_backlight_min_value" value="30" type="int"/>
+    <factorycfg  name="hq_backlight_max_value" value="255" type="int"/>
+    <!--Huaqin add for ACORN-1477 zhouming at 2019/3/6 end-->
+
+    <!--TP test-->
+    <factorycfg  name="hq_test_tp_rowdata_path" value="/sys/devices/platform/tp_wake_switch/factory_check" type="string"/>
+    <!--Lsensor test-->
+    <factorycfg  name="hq_open_save_lsensor_noice" value="true" type="boolean"/>
+    <factorycfg  name="hq_switch_psensor_value" value="false" type="boolean"/>
+    <!--Psensor test-->
+    <factorycfg  name="hq_get_psensor_noice_way_by_path" value="false" type="boolean"/> <!--  path or prop -->
+    <factorycfg  name="hq_get_psensor_noice_prop" value="persist.vendor.sys.psensor" type="string"/>
+    <!--huaqin add for get psensor noise by zhangjingzhi at 20190317 start -->
+    <!--sensor info must by like :"alsps name :tsl2540 stk3x3x_p:500:0" -->
+    <factorycfg  name="hq_get_psensor_noice_path" value="/sys/devices/platform/HardwareInfo/alsps" type="string"/>
+    <!-- this is used for support different psensor use different config-->
+    <factorycfg  name="hq_psensor_support_custom_cfg" value="false" type="boolean"/>
+    <factorycfg  name="hq_psensor_type_stk3x3x_p" value="noise;2000" type="string"/>
+    <factorycfg  name="hq_psensor_type_ams3702" value="offset;50" type="string"/>
+    <!--huaqin add for get psensor noise by zhangjingzhi at 20190317 end -->
+    <factorycfg  name="hq_get_psensor_cali_data_path" value="/sys/class/input/event4/device/ps_canc" type="string"/>
+    <factorycfg  name="hq_psensor_noice_inf_max_value" value="15" type="int"/>
+    <factorycfg  name="hq_psensor_noice_prox_value" value="1000" type="int"/>
+    <factorycfg  name="hq_psensor_set_save_noice_value" value="2" type="int"/>
+    <factorycfg  name="hq_psensor_support_save_offset_value" value="true" type="boolean"/>
+    <factorycfg  name="hq_psensor_close_noise_value_judge" value="true" type="boolean"/>
+    <!--Huaqin add  for factory by huzhongxiang at 2019/1/31 start-->
+    <factorycfg  name="hq_support_double_backcamera" value="true" type="boolean"/>
+    <factorycfg  name="hq_support_ga_keycode_function" value="288" type="int"/>
+    <!--Huaqin add  for factory by huzhongxiang at 2019/1/31 end-->
+    <!--FingerPrint test-->
+    <!-- HS60 code for Bug-ID by zhangle at 2020-02-12 start. -->
+    <factorycfg name="hq_finger_test_goodix" value="com.goodix.gftest;com.goodix.gftest.HomeActivity" type="string"/>
+    <factorycfg name="hq_finger_test_cdfinger" value="com.val.hardware;com.val.diagnostics.fingerprint.cdfinger.FactoryTestActivity" type="string"/>
+    <factorycfg name="hq_finger_test_cdfinger_998eas" value="com.val.hardware;com.val.diagnostics.fingerprint.cdfinger.FactoryTestActivity" type="string"/>
+    <factorycfg name="hq_finger_test_fpc" value="com.fingerprints.sensortesttool;com.fingerprints.sensortesttool.activities.MainActivity" type="string"/>
+    <factorycfg name="hq_finger_test_silead" value="com.val.hardware;com.val.diagnostics.fingerprint.silead.AutoTestActivity" type="string"/>
+    <factorycfg name="hq_finger_test_focaltech" value="com.val.hardware;com.val.diagnostics.fingerprint.focaltech.FingerprintMainActivity" type="string"/>
+    <!-- hs03s code for P210629-04658 by lvzheng at 2021/07/09 start -->
+    <factorycfg name="hq_finger_test_egistec" value="com.val.hardware;com.val.diagnostics.fingerprint.egis.InlineSampleActivity" type="string"/>
+    <factorycfg name="hq_finger_test_fpsensor" value="com.val.hardware;com.val.diagnostics.fingerprint.fpsensor.ActivityWithTouchTest" type="string"/>
+    <!-- hs03s code for P210629-04658 by lvzheng at 2021/07/09 end -->
+    <!-- HS60 code for Bug-ID by zhangle at 2020-02-12 end. -->
+
+     <!-- hs03s add for DEVAL5625-584 by lvzheng at 20210610 start -->
+    <factorycfg  name="hq_factory_support_fingerprint" value="true" type="boolean"/>
+    <factorycfg  name="hq_factory_support_typec_cfg" value="" type="string"/>
+     <!-- hs03s add for DEVAL5625-584 by lvzheng at 20210610 end -->
+    <!-- hs03s code for P210603-03088  by chenweibing at 20210603 start -->
+    <factorycfg  name="hq_factory_support_smartpa_cfg" value="" type="string"/>
+    <factorycfg  name="hq_factory_support_submic_cfg" value="G_25;G_26;E_27" type="string"/>
+    <factorycfg  name="hq_factory_support_cameracal_cfg" value="G_25;G_26;E_27" type="string"/>
+    <factorycfg  name="hq_factory_support_rearcamera2nd_cfg" value="G_25;G_26;E_27" type="string"/>
+    <factorycfg  name="hq_factory_support_rearcamera3rd_cfg" value="G_25;G_26;E_27" type="string"/>
+    <factorycfg  name="hq_factory_support_rearcamera4th_cfg" value="" type="string"/>
+    <!-- hs03s code for P210603-03088  by chenweibing at 20210603 end -->
+
+    <!--Mic test-->
+    <factorycfg  name="hq_mainmic_pass_value" value="18000" type="int"/>
+    <factorycfg  name="hq_submic_pass_value" value="18000" type="int"/>
+    <factorycfg  name="hq_submic_pcba_pass_value" value="13000" type="int"/>
+    <!--Headset test-->
+    <factorycfg  name="hq_headset_mic_pass_value" value="13000" type="int"/>
+    <!--MainCamera test-->
+    <factorycfg  name="hq_camera_width_default_value" value="1920" type="int"/>
+    <factorycfg  name="hq_camera_height_default_value" value="1080" type="int"/>
+    <factorycfg  name="hq_camera_size" value="4" type="int"/>
+    <factorycfg  name="hq_maincamera_rotate" value="90" type="int"/>
+    <factorycfg  name="hq_maincamera_device_id" value="0" type="int"/>
+    <factorycfg  name="hq_maincamera_support_flash" value="1" type="int"/>
+    <!--huaqin add for EVT not support af by zhangjingzhi at 20190726 start -->
+    <factorycfg  name="hq_main_cam_support_af" value="false" type="boolean"/>
+    <!--huaqin add for EVT not support af by zhangjingzhi at 20190726 end -->
+    <!--RearCamera test-->
+    <factorycfg  name="hq_rearcamera_rotate" value="90" type="int"/>
+    <!--hs03s code for DEVAL5625-584 by lvzheng at 2021/05/25 start-->
+    <factorycfg  name="hq_rearcamera_device_id" value="20" type="int"/>
+    <!--hs03s code for DEVAL5625-584 by lvzheng at 2021/05/25 end-->
+    <factorycfg  name="hq_ext_camera_width_default_value" value="1920" type="int"/>
+    <factorycfg  name="hq_ext_camera_height_default_value" value="1080" type="int"/>
+    <!--FrontCamera test-->
+    <factorycfg  name="hq_frontcamera_rotate" value="90" type="int"/>
+    <factorycfg  name="hq_frontcamera_device_id" value="1" type="int"/>
+    <factorycfg  name="hq_frontcamera_support_flash" value="0" type="int"/>
+    <factorycfg  name="hq_front_camera_width_default_value" value="1920" type="int"/>
+    <factorycfg  name="hq_front_camera_height_default_value" value="1080" type="int"/>
+    <!--huaqin add for config camera preview size by zhangjingzhi at 20190805 end -->
+    <!--Rear2Camera test-->
+    <factorycfg  name="hq_rear2camera_rotate" value="90" type="int"/>
+    <!--hs03s code for DEVAL5625-584 by lvzheng at 2021/05/25 start-->
+    <factorycfg  name="hq_rear2camera_device_id" value="52" type="int"/>
+    <!--hs03s code for DEVAL5625-584 by lvzheng at 2021/05/25 end-->
+    <factorycfg  name="hq_factory_support_ItemCameraExt3_cfg" value="ROW_CIS;EUR_UW;AT_T_UW;TRF_UW" type="string"/>
+    <factorycfg  name="hq_rear3camera_device_id" value="4" type="int"/>
+
+    <!-- huaqin add for set brightness max when test camera by zhangjingzhi at 20190303 start -->
+    <factorycfg  name="hq_camera_support_max_brightness" value="false" type="boolean"/>
+    <!-- huaqin add for set brightness max when test camera by zhangjingzhi at 20190303 end -->
+    <!-- Huaqin modify for JD2020-129 by zhangle at 2019-03-09 17:07:19 start. -->
+    <factorycfg  name="total_camera_sensor_count" value="4" type="int"/>
+    <!-- Huaqin modify for JD2020-129 by zhangle at 2019-03-09 17:07:19 end. -->
+    <!-- Huaqin add by zhangjingzhi for factory test activity brightness at 20190313 start -->
+    <factorycfg  name="hq_factroy_activity_brightness_value" value="120" type="int"/>
+    <factorycfg  name="hq_support_factroy_activity_brightness" value="false" type="boolean"/>
+    <!-- Huaqin add by zhangjingzhi for factory test activity brightness at 20190313 end -->
+    <!--Huaqin add for battery test value in factory test by zhangjingzhi at 20190318 start -->
+    <factorycfg  name="hq_factroy_battery_min_value" value="20" type="int"/>
+    <!--Huaqin add for battery test value in factory test by zhangjingzhi at 20190318 end -->
+    <!--Huaqin add for JD2020-142 add cameraAuto Test by chenweibing at 2019/03/12 start-->
+    <factorycfg name="hq_cameraauto_camerainfo" value="0=MainBack;1=Front" type="string"/>
+    <!--Huaqin add for JD2020-142 add cameraAuto Test by chenweibing at 2019/03/12 end-->
+    <!--Huaqin add for ACORN-1381 by zhouming at 2019/3/8 end-->
+    <!-- huaqin add for mmi2 with runin flag by zhangjingzhi at 20190429 start -->
+    <factorycfg  name="hq_support_mmi2test_runwith_audioflag" value="false" type="boolean"/>
+    <factorycfg  name="hq_support_mmi2test_runwith_runinflag" value="false" type="boolean"/>
+    <!-- huaqin add for mmi2 with runin flag by zhangjingzhi at 20190429 end -->
+    <!--Huaqin add for JD2020-142 remove delay 3 second for cameraAuto Test by chenweibing at 2019/4/1 start-->
+    <factorycfg  name="hq_support_cameraauto_preview_delay" value="false" type="boolean"/>
+    <!--Huaqin add for JD2020-142 remove delay 3 second for cameraAuto Test by chenweibing at 2019/4/1 end-->
+    <!--Huaqin add psensor control noise value for zql1828 by chenweibing at 2019/04/24 start-->
+    <factorycfg  name="hq_psensor_noisebutton_control_noise_value" value="false" type="boolean"/>
+    <factorycfg  name="hq_psensor_only_save_offset_value" value="false" type="boolean"/>
+    <!--Huaqin add psensor control noise value for zql1828 by chenweibing at 2019/04/24 end-->
+    <!--Huaqin modify to control offset=0 by chenweibing at 20190429 start-->
+    <factorycfg  name="hq_psensor_noice_prox_min_value" value="-1" type="int"/>
+    <!--Huaqin modify to control offset=0 by chenweibing at 20190429 end-->
+
+    <!--bootcomplete load data-->
+    <!-- Huaqin add for ACORN-1380 by huzhongxiang at 20190227 start -->
+    <bootcompletedfactorycfg  name="hq_support_quick_start_mtklog" value="false" type="boolean"/>
+    <bootcompletedfactorycfg  name="hq_support_mmi2_test" value="false" type="boolean"/>
+    <!--Huaqin add for ACORN-1381 by zhouming at 2019/3/8 start-->
+    <!--shipping mmi test-->
+    <bootcompletedfactorycfg  name="hq_shipping_mmitest" value="false" type="boolean"/>
+    <!--mmi3 test-->
+    <bootcompletedfactorycfg  name="hq_support_mmi3test" value="false" type="boolean"/>
+    <!-- Huaqin add for auto test by huzhongxiang at 20190327 start -->
+    <bootcompletedfactorycfg  name="hq_support_auto_test" value="false" type="boolean"/>
+
+    <!-- Huaqin add for HS70 by miaozhenxing at 20191105 start -->
+    <!-- TabA7 Lite code for P210202-01946 by tianran at 20200205 start -->
+    <bootcompletedfactorycfg  name="hq_build_project" value="HS03S" type="string"/>
+    <!-- TabA7 Lite code for P210202-01946 by tianran at 20200205 end -->
+    <bootcompletedfactorycfg  name="hq_product_name_prop" value="ro.boot.pcbainfo" type="string"/>
+    <!-- Huaqin update for HS70-4873 by miaozhenxing at 20200318 start -->
+    <bootcompletedfactorycfg  name="product_1879" value="AT&amp;T;ATT_PRE_PAY;ATT_AIO;Verizen;USO;TRF;Canada" type="string"/>
+    <!-- Huaqin update for HS70-4873 by miaozhenxing at 20200318 end -->
+    <bootcompletedfactorycfg  name="platform_flag" value="/system/etc/platform_flags" type="string"/>
+    <bootcompletedfactorycfg  name="platform_flag_1879" value="/system/etc/platform_flags_1879" type="string"/>
+    <!-- Huaqin add for HS70 by miaozhenxing at 20191105 end -->
+    <!-- hs03s code for DEVAL5625-2023 by tianran at 2021/07/08 start -->
+    <bootcompletedfactorycfg  name="factory_type_path" value="/efs/factorytype" type="string"/>
+    <!-- hs03s code for DEVAL5625-2023 by tianran at 2021/07/08 end -->
+
+    <!-- Huaqin add for NCAMTEST by miaozhenxing at 20191113 start -->
+    <!-- hs03s code for DEVAL5625-1475 by tianran at 2021/06/15 start -->
+    <bootcompletedfactorycfg  name="camera_type_id_table" value="R1,2;F1,1;R2,0;R3,3;R4,5" type="string"/>
+    <!-- hs03s code for DEVAL5625-1475 by tianran at 2021/06/15 end -->
+    <!-- Huaqin add for HS70-4278 by miaozhenxing at 20200212 start -->
+    <bootcompletedfactorycfg  name="camera_flash_support_list" value="R2" type="string"/>
+    <bootcompletedfactorycfg  name="camera_af_cali_support_list" value="R2" type="string"/>
+    <!-- Huaqin add for HS70-4278 by miaozhenxing at 20200212 end -->
+    <bootcompletedfactorycfg  name="camera_lens_field" value="0;1023" type="string"/>
+    <!-- Huaqin add for NCAMTEST by miaozhenxing at 20191113 end -->
+    <!-- Huaqin update for HS50 by tianran at 20201022 start -->
+    <!-- hs03s add for SR-AL5625-01-499 by tianran at 20210519 start -->
+    <!-- HS03s code for DEVAL5626-646 by dongzhipeng at 20220419 start -->
+    <bootcompletedfactorycfg  name="model_name_list" value="G_25AA,SM-A037F;G_25AC,SM-A037F;G_25CA,SM-A037M;G_25CC,SM-A037M;G_26AA,SM-A037F;G_26CA,SM-A037M;E_27AA,SM-A037G;G_26AE,SM-A037M;G_26CE,SM-A037M" type="string"/>
+    <!-- HS03s code for DEVAL5626-646 by dongzhipeng at 20220419 end -->
+    <!-- hs03s add for SR-AL5625-01-499 by tianran at 20210519 end -->
+    <bootcompletedfactorycfg  name="model_name_list_one_to_many" value="KR_MEA_PCBA3,SM-T227" type="string"/>
+    <bootcompletedfactorycfg  name="model_name_list_one_to_many_cdn" value="ro.product.name,data" type="string"/>
+    <!-- Huaqin update for HS50 by tianran at 20201022 end -->
+
+    <!--huaqin add for HS70 by zhoupengfei at 20200317 start-->
+    <factorycfg  name="hq_factory_support_nfc_cfg" value="XXXX" type="string"/>
+    <!--huaqin add for HS70 by zhoupengfei at 20200317 end-->
+
+    <!-- Huaqin add for ZQL169XFAC-150 by miaozhenxing at 20200212 start -->
+    <bootcompletedfactorycfg  name="first_boot_delay_switch" value="true" type="boolean"/>
+    <bootcompletedfactorycfg  name="first_boot_delay_second" value="30" type="int"/>
+    <!-- Huaqin add for ZQL169XFAC-150 by miaozhenxing at 20200212 end -->
+
+    <!-- hs03s code for DEVAL5625-1523 by chenweibing at 20210617 start -->
+    <bootcompletedfactorycfg  name="hq_kd_test_start_control" value="true" type="boolean"/>
+    <bootcompletedfactorycfg  name="hq_kd_test_battery_control_level" value="20" type="int"/>
+    <!-- hs03s code for DEVAL5625-1523 by chenweibing at 20210617 end -->
+
+    <factorycfg  name="hq_support_file_flag" value="false" type="boolean"/>
+    <!-- Huaqin add for auto test by huzhongxiang at 20190327 end -->
+    <factorycfg  name="hq_factory_smartpa_support_ic" value="fs" type="string"/>
+    <factorycfg  name="hq_factory_support_fs_smartpa_bypass" value="false" type="boolean"/>
+    <factorycfg  name="hq_factory_support_ItemPressure_cfg" value="XXXXX" type="string"/>
+    <factorycfg  name="hq_factory_smartpa_path_nxp_r25" value="/sys/devices/platform/soc/78b6000.i2c/i2c-2/2-0034/calibrate" type="string"/>
+    <factorycfg  name="hq_factory_smartpa_path_fs_r25" value="/sys/bus/i2c/devices/2-0036/force_calib_fsm" type="string"/>
+    <factorycfg  name="hq_factory_smartpa_path_nxp_f0" value="/sys/devices/platform/soc/78b6000.i2c/i2c-2/2-0034/cal_f0" type="string"/>
+    <factorycfg  name="hq_factory_smartpa_value_nxp" value="1" type="string"/>
+    <factorycfg  name="hq_factory_smartpa_pkname_fs" value="com.fouriersemi;com.fouriersemi.MainActivity" type="string"/>
+    <factorycfg  name="hq_factory_smartpa_r25_pass_value_nxp" value="5.5,9.5" type="string"/>
+    <factorycfg  name="hq_factory_smartpa_r25_pass_value_fs" value="5.5,9.5" type="string"/>
+    <factorycfg  name="hq_factory_smartpa_r25_pass_value_mtpaw" value="5.5,9.5" type="string"/>
+    <factorycfg  name="hq_factory_smartpa_r25_pass_value_ti" value="5.5,9.5" type="string"/>
+    <factorycfg  name="hq_factory_support_submictospk_cfg" value="" type="string"/>
+    <!--HS60 code for ZQL1695 add repairFlag by chenweibing at 20200113 start -->
+    <factorycfg  name="repair_dialog_disappear_config" value="true" type="boolean"/>
+    <!--HS60 code for ZQL1695 add repairFlag by chenweibing at 20200113 end -->
+    <!-- HS60 code for SR-ZQL1695-01000000474 add hardware information by chenweibing at 20191126 start -->
+    <factorycfg  name="camera_file_name" value="/proc/cameraModuleInfo" type="string"/>
+    <factorycfg  name="memory_info" value="/proc/meminfo" type="string"/>
+    <factorycfg  name="emmc_rom_path" value="/sys/block/mmcblk0/size" type="string"/>
+    <factorycfg  name="emmc_proc_file" value="/sys/block/mmcblk0/device/manfid" type="string"/>
+    <factorycfg  name="ufs_rom_path" value="/sys/block/sda/size" type="string"/>
+    <factorycfg  name="ufs_rom_vendor" value="/sys/block/sda/device/vendor" type="string"/>
+    <factorycfg  name="tp_file" value="/proc/tp_info" type="string"/>
+    <!--O6T code for SR-AX3565A-01-26 by dongzhipeng at 20220914 start-->
+    <factorycfg  name="charger_ic_file" value="sys/class/power_supply/battery/chg_info" type="string"/>
+    <factorycfg  name="cc_ic_file" value="sys/class/power_supply/battery/tcpc_info" type="string"/>
+    <!--O6T code for SR-AX3565A-01-26 by dongzhipeng at 20220914 end-->
+    <!--hs03s code for DEVAL5625-584 by lvzheng at 2021/05/24 start-->
+    <factorycfg  name="battery_file" value="/sys/class/power_supply/battery/battery_type" type="string"/>
+    <!--hs03s code for DEVAL5625-584 by lvzheng at 2021/05/24 end-->
+    <factorycfg  name="battery_resistance_id" value="POWER_SUPPLY_RESISTANCE_ID" type="string"/>
+    <factorycfg  name="fp_proc" value="persist.vendor.runin.fp" type="string"/>
+    <!-- HS60 code for SR-ZQL1695-01000000474 add hardware information by chenweibing at 20191126 end -->
+    <!-- HS70 code for HS70-NA adapt xml config by chenweibing at 20191218 start -->
+    <factorycfg  name="hq_factory_support_ItemFM_cfg" value="" type="string"/>
+    <factorycfg  name="hq_factory_support_ss_sim_cfg" value="XXXXXX" type="string"/>
+    <!-- HS70 code for HS70-NA adapt xml config by chenweibing at 20191218 end -->
+    <factorycfg name="battery_fastcharge_support" value="false" type="boolean"/>
+    <factorycfg name="battery_fastcharge_min_voltage" value="8000" type="int"/>
+    <factorycfg name="battery_fastcharge_min_pass_count" value="5" type="int"/>
+    <!-- HS70 code for HS70-3121 by chenweibing at 20191224 start -->
+    <factorycfg  name="hq_factory_support_submictospk_smart_cfg" value="AT_T;TRF" type="string"/>
+    <!-- HS70 code for HS70-3121 by chenweibing at 20191224 end -->
+    <factorycfg  name="hq_factory_use_mic22tospk_road" value="true" type="boolean"/>
+    <!-- TabA7 Lite code by tianran at 2020/01/08 start -->
+    <factorycfg  name="hq_factory_support_ItemSim_cfg" value="" type="string"/>
+    <factorycfg  name="hq_factory_support_ItemReceiver_cfg" value="" type="string"/>
+    <factorycfg  name="hq_factory_support_ItemKeyVibrator_cfg" value="" type="string"/>
+    <factorycfg  name="hq_factory_support_ItemKeyTest_cfg" value="" type="string"/>
+    <!-- TabA7 Lite code by tianran at 2020/01/08 end -->
+    <!--TabA7 Lite  code for SR-AX3565-01-736 by tianran at 20200112 start-->
+    <factorycfg  name="hq_factory_support_ItemMainMicToRec_cfg" value="" type="string"/>
+    <!--TabA7 Lite  code for SR-AX3565-01-736 by tianran at 20200112 end-->
+    <factorycfg  name="hq_factory_support_more_speaker" value="false" type="boolean"/>
+    <!--TabA7 Lite  code for P210224-05535 by tianran at 20200301 start-->
+    <factorycfg  name="hq_factory_wifionly_config" value="WIFI_" type="string"/>
+    <!--TabA7 Lite  code for P210224-05535 by tianran at 20200301 end-->
+    <!--hs03s code for SR-AL5625-01-359 by dongzhipeng at 2021/05/08 start-->
+    <factorycfg  name="hq_factory_at_use_track_test_receiver" value="true" type="boolean"/>
+    <!--hs03s code for SR-AL5625-01-359 by dongzhipeng at 2021/05/08 end-->
+    <!--hs03s code for SR-AL5625-01-501 by tianran at 2021/05/26 start-->
+    <factorycfg  name="is_return_material_num" value="true" type="boolean"/>
+    <factorycfg  name="camera_name_list" value="1,rear;2,wide;3,front;4,depth;9,macro" type="string"/>
+    <!--hs03s code for SR-AL5625-01-501 by tianran at 2021/05/26 end-->
+    <!--hs03s code for SR-AL5625-01-539 by dongzhipeng at 2021/06/03 start -->
+    <factorycfg  name="hq_factory_support_fm_by_csc_code" value="ODM;OLM;OLE;PNG;VFJ;OJM;OWO;OWA;OWE;OWC;OWT;OWM" type="string"/>
+    <!--hs03s code for SR-AL5625-01-539 by dongzhipeng at 2021/06/03 end -->
+    <!-- HS03s_T code for AL5626TDEV-726 by chenweibing at 20221110 start -->
+    <factorycfg  name="hq_sep_direct_read_write_efs" value="true" type="boolean"/>
+    <factorycfg  name="hq_isAndroid_T" value="true" type="boolean"/>
+    <!-- HS03s_T code for AL5626TDEV-726 by chenweibing at 20221110 end -->
+<!--all-->
+
+</FactoryTest>

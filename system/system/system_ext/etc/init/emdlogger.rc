@@ -1,0 +1,18 @@
+on post-fs-data
+    mkdir /data/mdlog 0775 system system
+    mkdir /data/ramdump 0775 shell system
+    mkdir /data/debuglogger 0770 shell log
+
+on post-fs-data && property:ro.vendor.mtklog_internal=1
+    mkdir /data/log 0775 system log
+
+service emdlogger /system/system_ext/bin/emdlogger
+    class main
+    user shell
+    group log system shell radio sdcard_rw inet sdcard_r media_rw
+
+on property:vold.decrypt=trigger_restart_framework
+    start emdlogger
+
+on property:persist.vendor.em.dy.debug=1
+    stop emdlogger

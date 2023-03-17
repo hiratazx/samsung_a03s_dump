@@ -1,0 +1,19 @@
+# rscmgr rc file
+
+on property:sys.readahead.resource=1
+    readahead /system/app/HoneyBoard/HoneyBoard.apk --fully
+    readahead /system/app/HoneyBoard/oat/arm64/HoneyBoard.odex --fully
+    readahead /system/app/HoneyBoard/oat/arm64/HoneyBoard.vdex --fully
+    readahead /data/dalvik-cache/arm64/system@app@HoneyBoard@HoneyBoard.apk@classes.dex --fully
+    readahead /data/dalvik-cache/arm64/system@app@HoneyBoard@HoneyBoard.apk@classes.vdex --fully
+    readahead /system/priv-app/SamSungCamera/SamSungCamera.apk --fully
+    readahead /vendor/lib64/libhyper.so --fully
+    readahead /vendor/lib64/libmtkperf_client_vendor.so --fully
+    readahead /vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so --fully
+    readahead /vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so --fully
+    readahead /vendor/lib64/libpowerhal.so --fully
+    readahead /vendor/lib64/hw/hwcomposer.mt6765.so --fully
+    readahead /vendor/lib64/android.hardware.graphics.composer@2.1.so --fully
+    readahead /system/bin/surfaceflinger --fully
+    readahead /system/priv-app/SamsungMessages/SamsungMessages.apk --fully
+    setprop sys.readahead.resource 0

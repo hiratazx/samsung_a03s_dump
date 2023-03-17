@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TelephonySettings>
+  <Category name="Telephony All Settings">
+    <Actions name="Enable" ui_type="button">
+      <Action cmd_id="Log_too_Much" value="false"/>
+      <Action cmd_id="tel_dbg" value="1"/>
+      <Action cmd_id="COMMON_RIL_1" value="D"/>
+      <Action cmd_id="COMMON_RIL_2" value="D"/>
+      <Action cmd_id="COMMON_RIL_3" value="D"/>
+      <Action cmd_id="COMMON_RIL_4" value="D"/>
+      <Action cmd_id="COMMON_RIL_5" value="D"/>
+      <Action cmd_id="COMMON_RIL_6" value="D"/>
+      <Action cmd_id="COMMON_RIL_7" value="D"/>
+      <Action cmd_id="COMMON_RIL_8" value="D"/>
+      <Action cmd_id="COMMON_RIL_9" value="D"/>
+      <Action cmd_id="COMMON_RIL_10" value="D"/>
+      <Action cmd_id="COMMON_RIL_11" value="D"/>
+      <Action cmd_id="COMMON_RIL_12" value="D"/>
+      <Action cmd_id="COMMON_RIL_13" value="D"/>
+      <Action cmd_id="COMMON_RIL_14" value="D"/>
+      <Action cmd_id="COMMON_RIL_15" value="D"/>
+      <Action cmd_id="COMMON_RIL_16" value="D"/>
+      <Action cmd_id="COMMON_RIL_17" value="D"/>
+      <Action cmd_id="COMMON_RIL_18" value="D"/>
+      <Action cmd_id="COMMON_RIL_19" value="D"/>
+      <Action cmd_id="COMMON_RIL_20" value="D"/>
+      <Action cmd_id="COMMON_RIL_21" value="D"/>
+      <Action cmd_id="m_log_4" value="D"/>
+      <Action cmd_id="m_log_6" value="D"/>
+      <Action cmd_id="m_log_7" value="D"/>
+      <Action cmd_id="m_log_8" value="D"/>
+      <Action cmd_id="m_log_9" value="D"/>
+      <Action cmd_id="m_log_10" value="D"/>
+      <Action cmd_id="m_log_11" value="D"/>
+      <Action cmd_id="m_log_12" value="D"/>
+      <Action cmd_id="m_log_13" value="D"/>
+      <Action cmd_id="m_log_14" value="D"/>
+      <Action cmd_id="m_log_15" value="D"/>
+      <Action cmd_id="m_log_16" value="D"/>
+      <Action cmd_id="m_log_17" value="D"/>
+      <Action cmd_id="m_log_18" value="D"/>
+      <Action cmd_id="m_log_21" value="D"/>
+      <Action cmd_id="m_log_22" value="D"/>
+      <Action cmd_id="m_log_23" value="D"/>
+      <Action cmd_id="m_log_24" value="D"/>
+      <Action cmd_id="m_log_25" value="D"/>
+      <Action cmd_id="m_log_26" value="D"/>
+      <Action cmd_id="m_log_27" value="D"/>
+      <Action cmd_id="m_log_28" value="D"/>
+      <Action cmd_id="m_log_29" value="D"/>
+      <Action cmd_id="m_log_30" value="D"/>
+      <Action cmd_id="m_log_31" value="D"/>
+      <Action cmd_id="m_log_32" value="D"/>
+      <Action cmd_id="m_log_33" value="D"/>
+      <Action cmd_id="m_log_34" value="D"/>
+      <Action cmd_id="m_log_35" value="D"/>
+      <Action cmd_id="m_log_36" value="D"/>
+      <Action cmd_id="m_log_37" value="D"/>
+      <Action cmd_id="m_log_38" value="D"/>
+      <Action cmd_id="m_log_39" value="D"/>
+      <Action cmd_id="m_log_40" value="D"/>
+      <Action cmd_id="m_log_41" value="D"/>
+      <Action cmd_id="m_log_42" value="D"/>
+      <Action cmd_id="m_log_43" value="D"/>
+      <Action cmd_id="m_log_44" value="D"/>
+      <Action cmd_id="m_log_45" value="D"/>
+      <Action cmd_id="m_log_46" value="D"/>
+      <Action cmd_id="m_log_47" value="D"/>
+      <Action cmd_id="m_log_48" value="D"/>
+      <Action cmd_id="m_log_49" value="D"/>
+      <Action cmd_id="m_log_50" value="D"/>
+      <Action cmd_id="m_log_51" value="D"/>
+      <Action cmd_id="m_log_52" value="D"/>
+      <Action cmd_id="m_log_53" value="D"/>
+      <Action cmd_id="m_log_54" value="D"/>
+      <Action cmd_id="m_log_55" value="D"/>
+      <Action cmd_id="m_log_56" value="D"/>
+      <Action cmd_id="m_log_57" value="D"/>
+      <Action cmd_id="m_log_58" value="D"/>
+      <Action cmd_id="m_log_59" value="D"/>
+      <Action cmd_id="m_log_60" value="D"/>
+      <Action cmd_id="m_log_61" value="D"/>
+      <Action cmd_id="m_log_62" value="D"/>
+      <Action cmd_id="m_log_63" value="D"/>
+      <Action cmd_id="m_log_64" value="D"/>
+      <Action cmd_id="m_log_65" value="D"/>
+      <Action cmd_id="m_log_66" value="D"/>
+      <Action cmd_id="m_log_67" value="D"/>
+      <Action cmd_id="m_log_68" value="D"/>
+      <Action cmd_id="m_log_69" value="D"/>
+      <Action cmd_id="m_log_70" value="D"/>
+      <Action cmd_id="m_log_71" value="D"/>
+      <Action cmd_id="m_log_72" value="D"/>
+      <Action cmd_id="m_log_73" value="D"/>
+      <Action cmd_id="m_log_74" value="D"/>
+      <Action cmd_id="m_log_75" value="D"/>
+      <Action cmd_id="m_log_76" value="D"/>
+      <Action cmd_id="m_log_77" value="D"/>
+      <Action cmd_id="m_log_78" value="D"/>
+      <Action cmd_id="m_log_79" value="D"/>
+      <Action cmd_id="m_log_80" value="D"/>
+      <Action cmd_id="m_log_81" value="D"/>
+      <Action cmd_id="m_log_82" value="D"/>
+      <Action cmd_id="m_log_83" value="D"/>
+      <Action cmd_id="m_log_84" value="D"/>
+      <Action cmd_id="m_log_85" value="D"/>
+      <Action cmd_id="m_log_86" value="D"/>
+      <Action cmd_id="m_log_87" value="D"/>
+      <Action cmd_id="m_log_88" value="D"/>
+      <Action cmd_id="m_log_89" value="D"/>
+      <Action cmd_id="m_log_90" value="D"/>
+      <Action cmd_id="m_log_91" value="D"/>
+      <Action cmd_id="m_log_92" value="D"/>
+      <Action cmd_id="m_log_93" value="D"/>
+      <Action cmd_id="m_log_94" value="D"/>
+      <Action cmd_id="m_log_95" value="D"/>
+      <Action cmd_id="m_log_96" value="D"/>
+      <Action cmd_id="m_log_97" value="D"/>
+      <Action cmd_id="m_log_98" value="D"/>
+      <Action cmd_id="m_log_99" value="D"/>
+      <Action cmd_id="m_log_100" value="D"/>
+      <Action cmd_id="m_log_101" value="D"/>
+      <Action cmd_id="m_log_102" value="D"/>
+      <Action cmd_id="m_log_103" value="D"/>
+      <Action cmd_id="m_log_104" value="D"/>
+      <Action cmd_id="m_log_105" value="D"/>
+      <Action cmd_id="m_log_106" value="D"/>
+      <Action cmd_id="m_log_107" value="D"/>
+      <Action cmd_id="m_log_108" value="D"/>
+      <Action cmd_id="m_log_109" value="D"/>
+      <Action cmd_id="m_log_110" value="D"/>
+      <Action cmd_id="m_log_111" value="D"/>
+      <Action cmd_id="m_log_112" value="D"/>
+      <Action cmd_id="m_log_113" value="D"/>
+      <Action cmd_id="m_log_114" value="D"/>
+      <Action cmd_id="m_log_115" value="D"/>
+      <Action cmd_id="m_log_116" value="D"/>
+      <Action cmd_id="m_log_117" value="D"/>
+      <Action cmd_id="m_log_118" value="D"/>
+      <Action cmd_id="m_log_119" value="D"/>
+      <Action cmd_id="m_log_120" value="D"/>
+      <Action cmd_id="m_log_121" value="D"/>
+      <Action cmd_id="m_log_122" value="D"/>
+      <Action cmd_id="m_log_123" value="D"/>
+      <Action cmd_id="m_log_124" value="D"/>
+      <Action cmd_id="m_log_125" value="D"/>
+      <Action cmd_id="m_log_126" value="D"/>
+      <Action cmd_id="m_log_127" value="D"/>
+      <Action cmd_id="m_log_128" value="D"/>
+      <Action cmd_id="m_log_129" value="D"/>
+      <Action cmd_id="m_log_130" value="D"/>
+      <Action cmd_id="m_log_131" value="D"/>
+      <Action cmd_id="m_log_132" value="D"/>
+      <Action cmd_id="m_log_133" value="D"/>
+      <Action cmd_id="m_log_134" value="D"/>
+      <Action cmd_id="m_log_135" value="D"/>
+      <Action cmd_id="m_log_136" value="D"/>
+      <Action cmd_id="m_log_137" value="D"/>
+      <Action cmd_id="m_log_138" value="D"/>
+      <Action cmd_id="m_log_139" value="D"/>
+      <Action cmd_id="m_log_140" value="D"/>
+      <Action cmd_id="m_log_141" value="D"/>
+      <Action cmd_id="m_log_142" value="D"/>
+      <Action cmd_id="m_log_143" value="D"/>
+      <Action cmd_id="m_log_144" value="D"/>
+      <Action cmd_id="m_log_145" value="D"/>
+      <Action cmd_id="m_log_146" value="D"/>
+      <Action cmd_id="m_log_147" value="D"/>
+      <Action cmd_id="m_log_148" value="D"/>
+      <Action cmd_id="m_log_149" value="D"/>
+      <Action cmd_id="m_log_150" value="D"/>
+      <Action cmd_id="m_log_151" value="D"/>
+      <Action cmd_id="m_log_152" value="D"/>
+      <Action cmd_id="m_log_153" value="D"/>
+      <Action cmd_id="m_log_154" value="D"/>
+      <Action cmd_id="m_log_155" value="D"/>
+      <Action cmd_id="m_log_156" value="D"/>
+      <Action cmd_id="m_log_157" value="D"/>
+      <Action cmd_id="m_log_158" value="D"/>
+      <Action cmd_id="m_log_159" value="D"/>
+      <Action cmd_id="m_log_160" value="D"/>
+      <Action cmd_id="m_log_161" value="D"/>
+      <Action cmd_id="m_log_162" value="D"/>
+      <Action cmd_id="m_log_163" value="D"/>
+      <Action cmd_id="m_log_164" value="D"/>
+      <Action cmd_id="m_log_165" value="D"/>
+      <Action cmd_id="m_log_166" value="D"/>
+      <Action cmd_id="m_log_167" value="D"/>
+      <Action cmd_id="m_log_168" value="D"/>
+      <Action cmd_id="m_log_169" value="D"/>
+      <Action cmd_id="m_log_170" value="D"/>
+      <Action cmd_id="m_log_171" value="D"/>
+      <Action cmd_id="m_log_172" value="D"/>
+      <Action cmd_id="m_log_173" value="D"/>
+      <Action cmd_id="m_log_174" value="D"/>
+      <Action cmd_id="m_log_175" value="D"/>
+      <Action cmd_id="m_log_176" value="D"/>
+      <Action cmd_id="m_log_177" value="D"/>
+      <Action cmd_id="m_log_178" value="D"/>
+      <Action cmd_id="m_log_179" value="D"/>
+      <Action cmd_id="m_log_180" value="D"/>
+      <Action cmd_id="m_log_181" value="D"/>
+      <Action cmd_id="m_log_182" value="D"/>
+      <Action cmd_id="m_log_183" value="D"/>
+      <Action cmd_id="m_log_184" value="D"/>
+      <Action cmd_id="m_log_185" value="D"/>
+      <Action cmd_id="m_log_186" value="D"/>
+      <Action cmd_id="m_log_187" value="D"/>
+      <Action cmd_id="m_log_188" value="D"/>
+      <Action cmd_id="m_log_189" value="D"/>
+      <Action cmd_id="m_log_190" value="D"/>
+      <Action cmd_id="m_log_191" value="D"/>
+      <Action cmd_id="m_log_192" value="D"/>
+      <Action cmd_id="m_log_193" value="D"/>
+      <Action cmd_id="m_log_194" value="D"/>
+      <Action cmd_id="m_log_195" value="D"/>
+      <Action cmd_id="m_log_196" value="D"/>
+      <Action cmd_id="m_log_197" value="D"/>
+      <Action cmd_id="m_log_198" value="D"/>
+      <Action cmd_id="m_log_199" value="D"/>
+      <Action cmd_id="m_log_200" value="D"/>
+      <Action cmd_id="m_log_201" value="D"/>
+      <Action cmd_id="m_log_202" value="D"/>
+      <Action cmd_id="m_log_203" value="D"/>
+      <Action cmd_id="m_log_204" value="D"/>
+      <Action cmd_id="m_log_205" value="D"/>
+      <Action cmd_id="m_log_206" value="D"/>
+      <Action cmd_id="m_log_207" value="D"/>
+      <Action cmd_id="m_log_208" value="D"/>
+      <Action cmd_id="m_log_209" value="D"/>
+      <Action cmd_id="m_log_210" value="D"/>
+      <Action cmd_id="m_log_211" value="D"/>
+      <Action cmd_id="m_log_212" value="D"/>
+      <Action cmd_id="m_log_213" value="D"/>
+      <Action cmd_id="m_log_214" value="D"/>
+      <Action cmd_id="m_log_215" value="D"/>
+      <Action cmd_id="m_log_216" value="D"/>
+      <Action cmd_id="m_log_217" value="D"/>
+      <Action cmd_id="m_log_218" value="D"/>
+      <Action cmd_id="m_log_219" value="D"/>
+      <Action cmd_id="m_log_220" value="D"/>
+      <Action cmd_id="m_log_221" value="D"/>
+      <Action cmd_id="m_log_222" value="D"/>
+      <Action cmd_id="m_log_223" value="D"/>
+      <Action cmd_id="m_log_224" value="D"/>
+      <Action cmd_id="m_log_225" value="D"/>
+      <Action cmd_id="m_log_226" value="D"/>
+      <Action cmd_id="m_log_227" value="D"/>
+      <Action cmd_id="m_log_228" value="D"/>
+      <Action cmd_id="m_log_229" value="D"/>
+      <Action cmd_id="m_log_230" value="D"/>
+      <Action cmd_id="m_log_231" value="D"/>
+      <Action cmd_id="m_log_232" value="D"/>
+      <Action cmd_id="m_log_233" value="D"/>
+      <Action cmd_id="m_log_234" value="D"/>
+      <Action cmd_id="m_log_235" value="D"/>
+      <Action cmd_id="m_log_236" value="D"/>
+      <Action cmd_id="m_log_237" value="D"/>
+      <Action cmd_id="m_log_238" value="D"/>
+      <Action cmd_id="m_log_239" value="D"/>
+      <Action cmd_id="m_log_240" value="D"/>
+      <Action cmd_id="m_log_241" value="D"/>
+      <Action cmd_id="m_log_242" value="D"/>
+      <Action cmd_id="m_log_243" value="D"/>
+      <Action cmd_id="m_log_244" value="D"/>
+      <Action cmd_id="m_log_245" value="D"/>
+      <Action cmd_id="m_log_246" value="D"/>
+      <Action cmd_id="m_log_247" value="D"/>
+      <Action cmd_id="m_log_248" value="D"/>
+      <Action cmd_id="m_log_249" value="D"/>
+      <Action cmd_id="m_log_250" value="D"/>
+      <Action cmd_id="m_log_251" value="D"/>
+      <Action cmd_id="m_log_252" value="D"/>
+      <Action cmd_id="m_log_253" value="D"/>
+      <Action cmd_id="m_log_254" value="D"/>
+      <Action cmd_id="m_log_255" value="D"/>
+      <Action cmd_id="m_log_256" value="D"/>
+      <Action cmd_id="m_log_257" value="D"/>
+      <Action cmd_id="m_log_258" value="D"/>
+      <Action cmd_id="m_log_259" value="D"/>
+      <Action cmd_id="m_log_260" value="D"/>
+      <Action cmd_id="m_log_261" value="D"/>
+      <Action cmd_id="m_log_262" value="D"/>
+      <Action cmd_id="m_log_263" value="D"/>
+      <Action cmd_id="m_log_264" value="D"/>
+      <Action cmd_id="m_log_265" value="D"/>
+      <Action cmd_id="m_log_tag_1" value="V"/>
+      <Action cmd_id="m_log_tag_2" value="V"/>
+      <Action cmd_id="m_log_tag_3" value="V"/>
+      <Action cmd_id="m_log_tag_4" value="V"/>
+      <Action cmd_id="m_log_tag_5" value="V"/>
+      <Action cmd_id="m_log_tag_6" value="V"/>
+      <Action cmd_id="m_log_tag_7" value="V"/>
+      <Action cmd_id="m_log_tag_8" value="V"/>
+      <Action cmd_id="m_log_tag_9" value="V"/>
+      <Action cmd_id="m_log_tag_10" value="V"/>
+      <Action cmd_id="m_log_tag_11" value="V"/>
+      <Action cmd_id="m_log_tag_12" value="V"/>
+      <Action cmd_id="m_log_tag_13" value="V"/>
+      <Action cmd_id="m_log_tag_14" value="V"/>
+      <Action cmd_id="m_log_tag_15" value="V"/>
+      <Action cmd_id="m_log_tag_16" value="V"/>
+      <Action cmd_id="m_log_tag_17" value="V"/>
+      <Action cmd_id="m_log_tag_18" value="V"/>
+      <Action cmd_id="m_log_tag_19" value="V"/>
+      <Action cmd_id="m_log_tag_20" value="V"/>
+      <Action cmd_id="m_log_tag_21" value="V"/>
+      <Action cmd_id="m_log_tag_22" value="V"/>
+      <Action cmd_id="m_log_tag_23" value="V"/>
+      <Action cmd_id="m_log_tag_24" value="V"/>
+      <Action cmd_id="m_log_tag_off_1" value="V"/>
+      <Action cmd_id="m_log_tag_off_2" value="V"/>
+      <Action cmd_id="m_log_tag_off_3" value="V"/>
+      <Action cmd_id="m_log_tag_off_4" value="V"/>
+      <Action cmd_id="m_log_tag_off_5" value="V"/>
+      <Action cmd_id="m_log_tag_off_6" value="V"/>
+      <Action cmd_id="m_log_tag_off_7" value="V"/>
+      <Action cmd_id="m_log_tag_off_8" value="V"/>
+      <Action cmd_id="m_log_tag_off_9" value="V"/>
+      <Action cmd_id="m_log_tag_off_10" value="V"/>
+      <Action cmd_id="m_log_tag_off_11" value="V"/>
+      <Action cmd_id="m_log_tag_off_12" value="V"/>
+      <Action cmd_id="m_log_tag_off_13" value="V"/>
+      <Action cmd_id="m_log_tag_off_14" value="V"/>
+      <Action cmd_id="m_log_tag_off_15" value="V"/>
+      <Action cmd_id="m_log_tag_off_16" value="V"/>
+      <Action cmd_id="m_log_tag_off_17" value="V"/>
+      <Action cmd_id="m_log_tag_off_18" value="V"/>
+      <Action cmd_id="m_log_tag_off_19" value="V"/>
+      <Action cmd_id="m_log_tag_off_20" value="V"/>
+      <Action cmd_id="m_log_tag_off_21" value="V"/>
+      <Action cmd_id="m_log_tag_off_22" value="V"/>
+      <Action cmd_id="show_reboot_message" value=""/>
+    </Actions>
+    <Actions name="Disable" ui_type="button">
+      <Action cmd_id="Log_too_Much" value="true"/>
+      <Action cmd_id="tel_dbg" value="0"/>
+      <Action cmd_id="COMMON_RIL_1" value="I"/>
+      <Action cmd_id="COMMON_RIL_2" value="I"/>
+      <Action cmd_id="COMMON_RIL_3" value="I"/>
+      <Action cmd_id="COMMON_RIL_4" value="I"/>
+      <Action cmd_id="COMMON_RIL_5" value="I"/>
+      <Action cmd_id="COMMON_RIL_6" value="I"/>
+      <Action cmd_id="COMMON_RIL_7" value="I"/>
+      <Action cmd_id="COMMON_RIL_8" value="I"/>
+      <Action cmd_id="COMMON_RIL_9" value="I"/>
+      <Action cmd_id="COMMON_RIL_10" value="I"/>
+      <Action cmd_id="COMMON_RIL_11" value="I"/>
+      <Action cmd_id="COMMON_RIL_12" value="I"/>
+      <Action cmd_id="COMMON_RIL_13" value="I"/>
+      <Action cmd_id="COMMON_RIL_14" value="I"/>
+      <Action cmd_id="COMMON_RIL_15" value="I"/>
+      <Action cmd_id="COMMON_RIL_16" value="I"/>
+      <Action cmd_id="COMMON_RIL_17" value="I"/>
+      <Action cmd_id="COMMON_RIL_18" value="I"/>
+      <Action cmd_id="COMMON_RIL_19" value="I"/>
+      <Action cmd_id="COMMON_RIL_20" value="I"/>
+      <Action cmd_id="COMMON_RIL_21" value="I"/>
+      <Action cmd_id="m_log_4" value="I"/>
+      <Action cmd_id="m_log_6" value="I"/>
+      <Action cmd_id="m_log_7" value="I"/>
+      <Action cmd_id="m_log_8" value="I"/>
+      <Action cmd_id="m_log_9" value="I"/>
+      <Action cmd_id="m_log_10" value="I"/>
+      <Action cmd_id="m_log_11" value="I"/>
+      <Action cmd_id="m_log_12" value="I"/>
+      <Action cmd_id="m_log_13" value="I"/>
+      <Action cmd_id="m_log_14" value="I"/>
+      <Action cmd_id="m_log_15" value="I"/>
+      <Action cmd_id="m_log_16" value="I"/>
+      <Action cmd_id="m_log_17" value="I"/>
+      <Action cmd_id="m_log_18" value="I"/>
+      <Action cmd_id="m_log_21" value="I"/>
+      <Action cmd_id="m_log_22" value="I"/>
+      <Action cmd_id="m_log_23" value="I"/>
+      <Action cmd_id="m_log_24" value="I"/>
+      <Action cmd_id="m_log_25" value="I"/>
+      <Action cmd_id="m_log_26" value="I"/>
+      <Action cmd_id="m_log_27" value="I"/>
+      <Action cmd_id="m_log_28" value="I"/>
+      <Action cmd_id="m_log_29" value="I"/>
+      <Action cmd_id="m_log_30" value="I"/>
+      <Action cmd_id="m_log_31" value="I"/>
+      <Action cmd_id="m_log_32" value="I"/>
+      <Action cmd_id="m_log_33" value="I"/>
+      <Action cmd_id="m_log_34" value="I"/>
+      <Action cmd_id="m_log_35" value="I"/>
+      <Action cmd_id="m_log_36" value="I"/>
+      <Action cmd_id="m_log_37" value="I"/>
+      <Action cmd_id="m_log_38" value="I"/>
+      <Action cmd_id="m_log_39" value="I"/>
+      <Action cmd_id="m_log_40" value="I"/>
+      <Action cmd_id="m_log_41" value="I"/>
+      <Action cmd_id="m_log_42" value="I"/>
+      <Action cmd_id="m_log_43" value="I"/>
+      <Action cmd_id="m_log_44" value="I"/>
+      <Action cmd_id="m_log_45" value="I"/>
+      <Action cmd_id="m_log_46" value="I"/>
+      <Action cmd_id="m_log_47" value="I"/>
+      <Action cmd_id="m_log_48" value="I"/>
+      <Action cmd_id="m_log_49" value="I"/>
+      <Action cmd_id="m_log_50" value="I"/>
+      <Action cmd_id="m_log_51" value="I"/>
+      <Action cmd_id="m_log_52" value="I"/>
+      <Action cmd_id="m_log_53" value="I"/>
+      <Action cmd_id="m_log_54" value="I"/>
+      <Action cmd_id="m_log_55" value="I"/>
+      <Action cmd_id="m_log_56" value="I"/>
+      <Action cmd_id="m_log_57" value="I"/>
+      <Action cmd_id="m_log_58" value="I"/>
+      <Action cmd_id="m_log_59" value="I"/>
+      <Action cmd_id="m_log_60" value="I"/>
+      <Action cmd_id="m_log_61" value="I"/>
+      <Action cmd_id="m_log_62" value="I"/>
+      <Action cmd_id="m_log_63" value="I"/>
+      <Action cmd_id="m_log_64" value="I"/>
+      <Action cmd_id="m_log_65" value="I"/>
+      <Action cmd_id="m_log_66" value="I"/>
+      <Action cmd_id="m_log_67" value="I"/>
+      <Action cmd_id="m_log_68" value="I"/>
+      <Action cmd_id="m_log_69" value="I"/>
+      <Action cmd_id="m_log_70" value="I"/>
+      <Action cmd_id="m_log_71" value="I"/>
+      <Action cmd_id="m_log_72" value="I"/>
+      <Action cmd_id="m_log_73" value="I"/>
+      <Action cmd_id="m_log_74" value="I"/>
+      <Action cmd_id="m_log_75" value="I"/>
+      <Action cmd_id="m_log_76" value="I"/>
+      <Action cmd_id="m_log_77" value="I"/>
+      <Action cmd_id="m_log_78" value="I"/>
+      <Action cmd_id="m_log_79" value="I"/>
+      <Action cmd_id="m_log_80" value="I"/>
+      <Action cmd_id="m_log_81" value="I"/>
+      <Action cmd_id="m_log_82" value="I"/>
+      <Action cmd_id="m_log_83" value="I"/>
+      <Action cmd_id="m_log_84" value="I"/>
+      <Action cmd_id="m_log_85" value="I"/>
+      <Action cmd_id="m_log_86" value="I"/>
+      <Action cmd_id="m_log_87" value="I"/>
+      <Action cmd_id="m_log_88" value="I"/>
+      <Action cmd_id="m_log_89" value="I"/>
+      <Action cmd_id="m_log_90" value="I"/>
+      <Action cmd_id="m_log_91" value="I"/>
+      <Action cmd_id="m_log_92" value="I"/>
+      <Action cmd_id="m_log_93" value="I"/>
+      <Action cmd_id="m_log_94" value="I"/>
+      <Action cmd_id="m_log_95" value="I"/>
+      <Action cmd_id="m_log_96" value="I"/>
+      <Action cmd_id="m_log_97" value="I"/>
+      <Action cmd_id="m_log_98" value="I"/>
+      <Action cmd_id="m_log_99" value="I"/>
+      <Action cmd_id="m_log_100" value="I"/>
+      <Action cmd_id="m_log_101" value="I"/>
+      <Action cmd_id="m_log_102" value="I"/>
+      <Action cmd_id="m_log_103" value="I"/>
+      <Action cmd_id="m_log_104" value="I"/>
+      <Action cmd_id="m_log_105" value="I"/>
+      <Action cmd_id="m_log_106" value="I"/>
+      <Action cmd_id="m_log_107" value="I"/>
+      <Action cmd_id="m_log_108" value="I"/>
+      <Action cmd_id="m_log_109" value="I"/>
+      <Action cmd_id="m_log_110" value="I"/>
+      <Action cmd_id="m_log_111" value="I"/>
+      <Action cmd_id="m_log_112" value="I"/>
+      <Action cmd_id="m_log_113" value="I"/>
+      <Action cmd_id="m_log_114" value="I"/>
+      <Action cmd_id="m_log_115" value="I"/>
+      <Action cmd_id="m_log_116" value="I"/>
+      <Action cmd_id="m_log_117" value="I"/>
+      <Action cmd_id="m_log_118" value="I"/>
+      <Action cmd_id="m_log_119" value="I"/>
+      <Action cmd_id="m_log_120" value="I"/>
+      <Action cmd_id="m_log_121" value="I"/>
+      <Action cmd_id="m_log_122" value="I"/>
+      <Action cmd_id="m_log_123" value="I"/>
+      <Action cmd_id="m_log_124" value="I"/>
+      <Action cmd_id="m_log_125" value="I"/>
+      <Action cmd_id="m_log_126" value="I"/>
+      <Action cmd_id="m_log_127" value="I"/>
+      <Action cmd_id="m_log_128" value="I"/>
+      <Action cmd_id="m_log_129" value="I"/>
+      <Action cmd_id="m_log_130" value="I"/>
+      <Action cmd_id="m_log_131" value="I"/>
+      <Action cmd_id="m_log_132" value="I"/>
+      <Action cmd_id="m_log_133" value="I"/>
+      <Action cmd_id="m_log_134" value="I"/>
+      <Action cmd_id="m_log_135" value="I"/>
+      <Action cmd_id="m_log_136" value="I"/>
+      <Action cmd_id="m_log_137" value="I"/>
+      <Action cmd_id="m_log_138" value="I"/>
+      <Action cmd_id="m_log_139" value="I"/>
+      <Action cmd_id="m_log_140" value="I"/>
+      <Action cmd_id="m_log_141" value="I"/>
+      <Action cmd_id="m_log_142" value="I"/>
+      <Action cmd_id="m_log_143" value="I"/>
+      <Action cmd_id="m_log_144" value="I"/>
+      <Action cmd_id="m_log_145" value="I"/>
+      <Action cmd_id="m_log_146" value="I"/>
+      <Action cmd_id="m_log_147" value="I"/>
+      <Action cmd_id="m_log_148" value="I"/>
+      <Action cmd_id="m_log_149" value="I"/>
+      <Action cmd_id="m_log_150" value="I"/>
+      <Action cmd_id="m_log_151" value="I"/>
+      <Action cmd_id="m_log_152" value="I"/>
+      <Action cmd_id="m_log_153" value="I"/>
+      <Action cmd_id="m_log_154" value="I"/>
+      <Action cmd_id="m_log_155" value="I"/>
+      <Action cmd_id="m_log_156" value="I"/>
+      <Action cmd_id="m_log_157" value="I"/>
+      <Action cmd_id="m_log_158" value="I"/>
+      <Action cmd_id="m_log_159" value="I"/>
+      <Action cmd_id="m_log_160" value="I"/>
+      <Action cmd_id="m_log_161" value="I"/>
+      <Action cmd_id="m_log_162" value="I"/>
+      <Action cmd_id="m_log_163" value="I"/>
+      <Action cmd_id="m_log_164" value="I"/>
+      <Action cmd_id="m_log_165" value="I"/>
+      <Action cmd_id="m_log_166" value="I"/>
+      <Action cmd_id="m_log_167" value="I"/>
+      <Action cmd_id="m_log_168" value="I"/>
+      <Action cmd_id="m_log_169" value="I"/>
+      <Action cmd_id="m_log_170" value="I"/>
+      <Action cmd_id="m_log_171" value="I"/>
+      <Action cmd_id="m_log_172" value="I"/>
+      <Action cmd_id="m_log_173" value="I"/>
+      <Action cmd_id="m_log_174" value="I"/>
+      <Action cmd_id="m_log_175" value="I"/>
+      <Action cmd_id="m_log_176" value="I"/>
+      <Action cmd_id="m_log_177" value="I"/>
+      <Action cmd_id="m_log_178" value="I"/>
+      <Action cmd_id="m_log_179" value="I"/>
+      <Action cmd_id="m_log_180" value="I"/>
+      <Action cmd_id="m_log_181" value="I"/>
+      <Action cmd_id="m_log_182" value="I"/>
+      <Action cmd_id="m_log_183" value="I"/>
+      <Action cmd_id="m_log_184" value="I"/>
+      <Action cmd_id="m_log_185" value="I"/>
+      <Action cmd_id="m_log_186" value="I"/>
+      <Action cmd_id="m_log_187" value="I"/>
+      <Action cmd_id="m_log_188" value="I"/>
+      <Action cmd_id="m_log_189" value="I"/>
+      <Action cmd_id="m_log_190" value="I"/>
+      <Action cmd_id="m_log_191" value="I"/>
+      <Action cmd_id="m_log_192" value="I"/>
+      <Action cmd_id="m_log_193" value="I"/>
+      <Action cmd_id="m_log_194" value="I"/>
+      <Action cmd_id="m_log_195" value="I"/>
+      <Action cmd_id="m_log_196" value="I"/>
+      <Action cmd_id="m_log_197" value="I"/>
+      <Action cmd_id="m_log_198" value="I"/>
+      <Action cmd_id="m_log_199" value="I"/>
+      <Action cmd_id="m_log_200" value="I"/>
+      <Action cmd_id="m_log_201" value="I"/>
+      <Action cmd_id="m_log_202" value="I"/>
+      <Action cmd_id="m_log_203" value="I"/>
+      <Action cmd_id="m_log_204" value="I"/>
+      <Action cmd_id="m_log_205" value="I"/>
+      <Action cmd_id="m_log_206" value="I"/>
+      <Action cmd_id="m_log_207" value="I"/>
+      <Action cmd_id="m_log_208" value="I"/>
+      <Action cmd_id="m_log_209" value="I"/>
+      <Action cmd_id="m_log_210" value="I"/>
+      <Action cmd_id="m_log_211" value="I"/>
+      <Action cmd_id="m_log_212" value="I"/>
+      <Action cmd_id="m_log_213" value="I"/>
+      <Action cmd_id="m_log_214" value="I"/>
+      <Action cmd_id="m_log_215" value="I"/>
+      <Action cmd_id="m_log_216" value="I"/>
+      <Action cmd_id="m_log_217" value="I"/>
+      <Action cmd_id="m_log_218" value="I"/>
+      <Action cmd_id="m_log_219" value="I"/>
+      <Action cmd_id="m_log_220" value="I"/>
+      <Action cmd_id="m_log_221" value="I"/>
+      <Action cmd_id="m_log_222" value="I"/>
+      <Action cmd_id="m_log_223" value="I"/>
+      <Action cmd_id="m_log_224" value="I"/>
+      <Action cmd_id="m_log_225" value="I"/>
+      <Action cmd_id="m_log_226" value="I"/>
+      <Action cmd_id="m_log_227" value="I"/>
+      <Action cmd_id="m_log_228" value="I"/>
+      <Action cmd_id="m_log_229" value="I"/>
+      <Action cmd_id="m_log_230" value="I"/>
+      <Action cmd_id="m_log_231" value="I"/>
+      <Action cmd_id="m_log_232" value="I"/>
+      <Action cmd_id="m_log_233" value="I"/>
+      <Action cmd_id="m_log_234" value="I"/>
+      <Action cmd_id="m_log_235" value="I"/>
+      <Action cmd_id="m_log_236" value="I"/>
+      <Action cmd_id="m_log_237" value="I"/>
+      <Action cmd_id="m_log_238" value="I"/>
+      <Action cmd_id="m_log_239" value="I"/>
+      <Action cmd_id="m_log_240" value="I"/>
+      <Action cmd_id="m_log_241" value="I"/>
+      <Action cmd_id="m_log_242" value="I"/>
+      <Action cmd_id="m_log_243" value="I"/>
+      <Action cmd_id="m_log_244" value="I"/>
+      <Action cmd_id="m_log_245" value="I"/>
+      <Action cmd_id="m_log_246" value="I"/>
+      <Action cmd_id="m_log_247" value="I"/>
+      <Action cmd_id="m_log_248" value="I"/>
+      <Action cmd_id="m_log_249" value="I"/>
+      <Action cmd_id="m_log_250" value="I"/>
+      <Action cmd_id="m_log_251" value="I"/>
+      <Action cmd_id="m_log_252" value="I"/>
+      <Action cmd_id="m_log_253" value="I"/>
+      <Action cmd_id="m_log_254" value="I"/>
+      <Action cmd_id="m_log_255" value="I"/>
+      <Action cmd_id="m_log_256" value="I"/>
+      <Action cmd_id="m_log_257" value="I"/>
+      <Action cmd_id="m_log_258" value="I"/>
+      <Action cmd_id="m_log_259" value="I"/>
+      <Action cmd_id="m_log_260" value="I"/>
+      <Action cmd_id="m_log_261" value="I"/>
+      <Action cmd_id="m_log_262" value="I"/>
+      <Action cmd_id="m_log_263" value="I"/>
+      <Action cmd_id="m_log_264" value="I"/>
+      <Action cmd_id="m_log_265" value="I"/>
+      <Action cmd_id="m_log_tag_1" value="I"/>
+      <Action cmd_id="m_log_tag_2" value="I"/>
+      <Action cmd_id="m_log_tag_3" value="I"/>
+      <Action cmd_id="m_log_tag_4" value="I"/>
+      <Action cmd_id="m_log_tag_5" value="I"/>
+      <Action cmd_id="m_log_tag_6" value="I"/>
+      <Action cmd_id="m_log_tag_7" value="I"/>
+      <Action cmd_id="m_log_tag_8" value="I"/>
+      <Action cmd_id="m_log_tag_9" value="I"/>
+      <Action cmd_id="m_log_tag_10" value="I"/>
+      <Action cmd_id="m_log_tag_11" value="I"/>
+      <Action cmd_id="m_log_tag_12" value="I"/>
+      <Action cmd_id="m_log_tag_13" value="I"/>
+      <Action cmd_id="m_log_tag_14" value="I"/>
+      <Action cmd_id="m_log_tag_15" value="I"/>
+      <Action cmd_id="m_log_tag_16" value="I"/>
+      <Action cmd_id="m_log_tag_17" value="I"/>
+      <Action cmd_id="m_log_tag_18" value="I"/>
+      <Action cmd_id="m_log_tag_19" value="I"/>
+      <Action cmd_id="m_log_tag_20" value="I"/>
+      <Action cmd_id="m_log_tag_21" value="I"/>
+      <Action cmd_id="m_log_tag_22" value="I"/>
+      <Action cmd_id="m_log_tag_23" value="I"/>
+      <Action cmd_id="m_log_tag_24" value="I"/>
+      <Action cmd_id="m_log_tag_off_1" value="D"/>
+      <Action cmd_id="m_log_tag_off_2" value="D"/>
+      <Action cmd_id="m_log_tag_off_3" value="D"/>
+      <Action cmd_id="m_log_tag_off_4" value="D"/>
+      <Action cmd_id="m_log_tag_off_5" value="D"/>
+      <Action cmd_id="m_log_tag_off_6" value="D"/>
+      <Action cmd_id="m_log_tag_off_7" value="D"/>
+      <Action cmd_id="m_log_tag_off_8" value="D"/>
+      <Action cmd_id="m_log_tag_off_9" value="D"/>
+      <Action cmd_id="m_log_tag_off_10" value="D"/>
+      <Action cmd_id="m_log_tag_off_11" value="D"/>
+      <Action cmd_id="m_log_tag_off_12" value="D"/>
+      <Action cmd_id="m_log_tag_off_13" value="D"/>
+      <Action cmd_id="m_log_tag_off_14" value="D"/>
+      <Action cmd_id="m_log_tag_off_15" value="D"/>
+      <Action cmd_id="m_log_tag_off_16" value="D"/>
+      <Action cmd_id="m_log_tag_off_17" value="D"/>
+      <Action cmd_id="m_log_tag_off_18" value="D"/>
+      <Action cmd_id="m_log_tag_off_19" value="D"/>
+      <Action cmd_id="m_log_tag_off_20" value="D"/>
+      <Action cmd_id="m_log_tag_off_21" value="D"/>
+      <Action cmd_id="m_log_tag_off_22" value="D"/>
+      <Action cmd_id="show_reboot_message" value=""/>
+    </Actions>
+  </Category>
+  <Category name="">
+    <Group name="" ui_type="default">
+      <Command id="show_reboot_message" name="Telephony Enable / Disable All" ui_type="hidden" button_action="adb shell echo 'Please reboot device!'" cmd_type="adb shell"/>
+      <Command id="tel_dbg" name="Tel dbg" ui_type="hidden" cmd_type="set_property" property="persist.vendor.log.tel_dbg" default="1"/>
+      <Command id="Log_too_Much" name="Log too much" ui_type="hidden" cmd_type="set_property" property="persist.vendor.logmuch" default="true"/>
+      <Command id="COMMON_RIL_1" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.AT" default="D"/>
+      <Command id="COMMON_RIL_2" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RILMUXD" default="D"/>
+      <Command id="COMMON_RIL_3" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RILC-MTK" default="D"/>
+      <Command id="COMMON_RIL_4" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RILC" default="D"/>
+      <Command id="COMMON_RIL_5" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxMainThread" default="D"/>
+      <Command id="COMMON_RIL_6" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxRoot" default="D"/>
+      <Command id="COMMON_RIL_7" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxRilAdapter" default="D"/>
+      <Command id="COMMON_RIL_8" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxController" default="D"/>
+      <Command id="COMMON_RIL_9" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RILC-RP" default="D"/>
+      <Command id="COMMON_RIL_10" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxTransUtils" default="D"/>
+      <Command id="COMMON_RIL_11" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxMclDisThread" default="D"/>
+      <Command id="COMMON_RIL_12" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxCloneMgr" default="D"/>
+      <Command id="COMMON_RIL_13" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxHandlerMgr" default="D"/>
+      <Command id="COMMON_RIL_14" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxIdToStr" default="D"/>
+      <Command id="COMMON_RIL_15" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxDisThread" default="D"/>
+      <Command id="COMMON_RIL_16" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxMclStatusMgr" default="D"/>
+      <Command id="COMMON_RIL_17" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL-Fusion" default="D"/>
+      <Command id="COMMON_RIL_18" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxContFactory" default="D"/>
+      <Command id="COMMON_RIL_19" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxChannelMgr" default="D"/>
+      <Command id="COMMON_RIL_20" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL-Parcel" default="D"/>
+      <Command id="COMMON_RIL_21" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL-Socket" default="D"/>
+
+      <Command id="m_log_4" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL-DATA" default="D"/>
+      <Command id="m_log_6" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.GsmCdmaPhone" default="D"/>
+      <Command id="m_log_7" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RILMD2-SS" default="D"/>
+      <Command id="m_log_8" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.CapaSwitch" default="D"/>
+      <Command id="m_log_9" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.DSSelector" default="D"/>
+      <Command id="m_log_10" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.DSSExt" default="D"/>
+      <Command id="m_log_11" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.Op01DSSExt" default="D"/>
+      <Command id="m_log_12" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.Op02DSSExt" default="D"/>
+      <Command id="m_log_13" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.Op09DSSExt" default="D"/>
+      <Command id="m_log_14" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.Op18DSSExt" default="D"/>
+      <Command id="m_log_15" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.DSSelectorUtil" default="D"/>
+      <Command id="m_log_16" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.Op01SimSwitch" default="D"/>
+      <Command id="m_log_17" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.Op02SimSwitch" default="D"/>
+      <Command id="m_log_18" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.Op18SimSwitch" default="D"/>
+      <Command id="m_log_21" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.IccProvider" default="D"/>
+      <Command id="m_log_22" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.IccPhoneBookIM" default="D"/>
+      <Command id="m_log_23" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.AdnRecordCache" default="D"/>
+      <Command id="m_log_24" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.AdnRecordLoader" default="D"/>
+      <Command id="m_log_25" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.AdnRecord" default="D"/>
+      <Command id="m_log_26" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL-PHB" default="D"/>
+      <Command id="m_log_27" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkIccProvider" default="D"/>
+      <Command id="m_log_28" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkIccPHBIM" default="D"/>
+      <Command id="m_log_29" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkAdnRecord" default="D"/>
+      <Command id="m_log_30" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkRecordLoader" default="D"/>
+      <Command id="m_log_31" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RpPhbController" default="D"/>
+      <Command id="m_log_32" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcPhbReq" default="D"/>
+      <Command id="m_log_33" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcPhbUrc" default="D"/>
+      <Command id="m_log_34" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcPhb" default="D"/>
+      <Command id="m_log_35" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VT" default="D"/>
+      <Command id="m_log_36" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ImsVTProvider" default="D"/>
+      <Command id="m_log_37" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.IccCardProxy" default="D"/>
+      <Command id="m_log_38" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.IsimFileHandler" default="D"/>
+      <Command id="m_log_39" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.IsimRecords" default="D"/>
+      <Command id="m_log_40" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.SIMRecords" default="D"/>
+      <Command id="m_log_41" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.SpnOverride" default="D"/>
+      <Command id="m_log_42" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.UiccCard" default="D"/>
+      <Command id="m_log_43" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.UiccController" default="D"/>
+      <Command id="m_log_44" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL-SIM" default="D"/>
+      <Command id="m_log_45" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.CountryDetector" default="D"/>
+      <Command id="m_log_46" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.DataDispatcher" default="D"/>
+      <Command id="m_log_47" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ImsService" default="D"/>
+      <Command id="m_log_48" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.IMS_RILA" default="D"/>
+      <Command id="m_log_49" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.IMSRILRequest" default="D"/>
+      <Command id="m_log_50" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ImsManager" default="D"/>
+      <Command id="m_log_51" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ImsApp" default="D"/>
+      <Command id="m_log_52" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ImsBaseCommands" default="D"/>
+      <Command id="m_log_53" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkImsManager" default="D"/>
+      <Command id="m_log_54" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkImsService" default="D"/>
+      <Command id="m_log_55" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RP_IMS" default="D"/>
+      <Command id="m_log_56" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcIms" default="D"/>
+      <Command id="m_log_57" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcImsConfigController" default="D"/>
+      <Command id="m_log_58" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcImsConference" default="D"/>
+      <Command id="m_log_59" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcImsDialog" default="D"/>
+      <Command id="m_log_60" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcImsCtlUrcHdl" default="D"/>
+      <Command id="m_log_61" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcImsCtlReqHdl" default="D"/>
+      <Command id="m_log_62" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ImsCall" default="D"/>
+      <Command id="m_log_63" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ImsPhone" default="D"/>
+      <Command id="m_log_64" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ImsPhoneCall" default="D"/>
+      <Command id="m_log_65" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ImsPhoneBase" default="D"/>
+      <Command id="m_log_66" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ImsCallSession" default="D"/>
+      <Command id="m_log_67" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ImsCallProfile" default="D"/>
+      <Command id="m_log_68" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ImsEcbm" default="D"/>
+      <Command id="m_log_69" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ImsEcbmProxy" default="D"/>
+      <Command id="m_log_70" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.OperatorUtils" default="D"/>
+      <Command id="m_log_71" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WfoApp" default="D"/>
+      <Command id="m_log_72" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.GsmCdmaConn" default="D"/>
+      <Command id="m_log_73" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.GsmCdmaPhone" default="D"/>
+      <Command id="m_log_74" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.Phone" default="D"/>
+      <Command id="m_log_75" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL-CC" default="D"/>
+      <Command id="m_log_76" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RpCallControl" default="D"/>
+      <Command id="m_log_77" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RpAudioControl" default="D"/>
+      <Command id="m_log_78" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.GsmCallTkrHlpr" default="D"/>
+      <Command id="m_log_79" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkPhoneNotifr" default="D"/>
+      <Command id="m_log_80" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkGsmCdmaConn" default="D"/>
+      <Command id="m_log_81" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RadioManager" default="D"/>
+      <Command id="m_log_82" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL_Mux" default="D"/>
+      <Command id="m_log_83" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL-OEM" default="D"/>
+      <Command id="m_log_84" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL" default="D"/>
+      <Command id="m_log_85" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL_UIM_SOCKET" default="D"/>
+      <Command id="m_log_86" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RILD" default="D"/>
+      <Command id="m_log_87" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL-RP" default="D"/>
+      <Command id="m_log_88" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxMessage" default="D"/>
+      <Command id="m_log_89" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxDebugInfo" default="D"/>
+      <Command id="m_log_90" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxTimer" default="D"/>
+      <Command id="m_log_91" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxObject" default="D"/>
+      <Command id="m_log_92" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.SlotQueueEntry" default="D"/>
+      <Command id="m_log_93" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxAction" default="D"/>
+      <Command id="m_log_94" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RFX" default="D"/>
+      <Command id="m_log_95" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RpRadioMessage" default="D"/>
+      <Command id="m_log_96" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RpModemMessage" default="D"/>
+      <Command id="m_log_97" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.PhoneFactory" default="D"/>
+      <Command id="m_log_98" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ProxyController" default="D"/>
+      <Command id="m_log_99" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.SpnOverride" default="D"/>
+      <Command id="m_log_100" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxDefDestUtils" default="D"/>
+      <Command id="m_log_101" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxSM" default="D"/>
+      <Command id="m_log_102" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxSocketSM" default="D"/>
+      <Command id="m_log_103" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxDT" default="D"/>
+      <Command id="m_log_104" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RpCdmaOemCtrl" default="D"/>
+      <Command id="m_log_105" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RpRadioCtrl" default="D"/>
+      <Command id="m_log_106" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RpMDCtrl" default="D"/>
+      <Command id="m_log_107" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RpCdmaRadioCtrl" default="D"/>
+      <Command id="m_log_108" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RpFOUtils" default="D"/>
+      <Command id="m_log_109" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.C2K_RIL-SIM" default="D"/>
+      <Command id="m_log_110" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkGsmCdmaPhone" default="D"/>
+      <Command id="m_log_111" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkRILJ" default="D"/>
+      <Command id="m_log_112" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkRadioInd" default="D"/>
+      <Command id="m_log_113" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkRadioResp" default="D"/>
+      <Command id="m_log_114" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.ExternalSimMgr" default="D"/>
+      <Command id="m_log_115" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VsimAdaptor" default="D"/>
+      <Command id="m_log_116" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkCsimFH" default="D"/>
+      <Command id="m_log_117" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkIsimFH" default="D"/>
+      <Command id="m_log_118" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkRuimFH" default="D"/>
+      <Command id="m_log_119" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkSIMFH" default="D"/>
+      <Command id="m_log_120" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkSIMRecords" default="D"/>
+      <Command id="m_log_121" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkSmsCbHeader" default="D"/>
+      <Command id="m_log_122" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkSmsManager" default="D"/>
+      <Command id="m_log_123" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkSmsMessage" default="D"/>
+      <Command id="m_log_124" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkSpnOverride" default="D"/>
+      <Command id="m_log_125" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkUiccCardApp" default="D"/>
+      <Command id="m_log_126" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkUiccCtrl" default="D"/>
+      <Command id="m_log_127" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkUsimFH" default="D"/>
+      <Command id="m_log_128" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RpRilClientCtrl" default="D"/>
+      <Command id="m_log_129" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RilMalClient" default="D"/>
+      <Command id="m_log_130" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RpSimController" default="D"/>
+      <Command id="m_log_131" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkSubCtrl" default="D"/>
+      <Command id="m_log_132" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RP_DAC" default="D"/>
+      <Command id="m_log_133" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RP_DC" default="D"/>
+      <Command id="m_log_134" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.NetAgentService" default="D"/>
+      <Command id="m_log_135" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.NetAgent_IO" default="D"/>
+      <Command id="m_log_136" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.NetLnkEventHdlr" default="D"/>
+      <Command id="m_log_137" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcDcCommon" default="D"/>
+      <Command id="m_log_138" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcDcDefault" default="D"/>
+      <Command id="m_log_139" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcDC" default="D"/>
+      <Command id="m_log_140" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RilClient" default="D"/>
+      <Command id="m_log_141" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcCommSimReq" default="D"/>
+      <Command id="m_log_142" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcCdmaSimRequest" default="D"/>
+      <Command id="m_log_143" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcGsmSimRequest" default="D"/>
+      <Command id="m_log_144" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcCommSimUrc" default="D"/>
+      <Command id="m_log_145" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcGsmSimUrc" default="D"/>
+      <Command id="m_log_146" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcCommSimCtrl" default="D"/>
+      <Command id="m_log_147" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcCommSimOpReq" default="D"/>
+      <Command id="m_log_148" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcRadioCont" default="D"/>
+      <Command id="m_log_149" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkRetryManager" default="D"/>
+      <Command id="m_log_150" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcDcPdnManager" default="D"/>
+      <Command id="m_log_151" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcDcReqHandler" default="D"/>
+      <Command id="m_log_152" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcDcUtility" default="D"/>
+      <Command id="m_log_153" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxIdToMsgId" default="D"/>
+      <Command id="m_log_154" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxOpUtils" default="D"/>
+      <Command id="m_log_155" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxMclMessenger" default="D"/>
+      <Command id="m_log_156" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxRilAdapter" default="D"/>
+      <Command id="m_log_157" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxFragEnc" default="D"/>
+      <Command id="m_log_158" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxStatusMgr" default="D"/>
+      <Command id="m_log_159" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcRadioReq" default="D"/>
+      <Command id="m_log_160" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcCapa" default="D"/>
+      <Command id="m_log_161" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcCapa" default="D"/>
+      <Command id="m_log_162" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RpMalController" default="D"/>
+      <Command id="m_log_163" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WORLDMODE" default="D"/>
+      <Command id="m_log_164" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcWp" default="D"/>
+      <Command id="m_log_165" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcWp" default="D"/>
+      <Command id="m_log_166" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcOpRadioReq" default="D"/>
+      <Command id="m_log_167" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RP_DC" default="D"/>
+      <Command id="m_log_168" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxRilUtils" default="D"/>
+      <Command id="m_log_169" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcCdmaSimUrc" default="D"/>
+      <Command id="m_log_170" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkPhoneNumberUtils" default="D"/>
+      <Command id="m_log_171" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcOemHandler" default="D"/>
+      <Command id="m_log_172" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.CarrierExpressServiceImpl" default="D"/>
+      <Command id="m_log_173" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.CarrierExpressServiceImplExt" default="D"/>
+      <Command id="m_log_174" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.PhoneConfigurationSettings" default="D"/>
+      <Command id="m_log_175" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxContFactory" default="D"/>
+      <Command id="m_log_176" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxChannelMgr" default="D"/>
+      <Command id="m_log_177" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxMclDisThread" default="D"/>
+      <Command id="m_log_178" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxCloneMgr" default="D"/>
+      <Command id="m_log_179" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxHandlerMgr" default="D"/>
+      <Command id="m_log_180" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcModeCont" default="D"/>
+      <Command id="m_log_181" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL-SocListen" default="D"/>
+      <Command id="m_log_182" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RIL-Netlink" default="D"/>
+      <Command id="m_log_183" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxVersionMgr" default="D"/>
+      <Command id="m_log_184" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RilOpProxy" default="D"/>
+      <Command id="m_log_185" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RILC-OP" default="D"/>
+      <Command id="m_log_186" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RilOemClient" default="D"/>
+      <Command id="m_log_187" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.Telecom" default="D"/>
+      <Command id="m_log_188" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MwiRIL" default="D"/>
+      <Command id="m_log_189" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.SmartRatController" default="D"/>
+      <Command id="m_log_190" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.SmartGearsController" default="D"/>
+      <Command id="m_log_191" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.SocketStatusProvider" default="D"/>
+      <Command id="m_log_192" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.AppStatusProvider" default="D"/>
+      <Command id="m_log_193" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.InformationUtil" default="D"/>
+      <Command id="m_log_194" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.SmartRatDummyUsageGenerator" default="D"/>
+      <Command id="m_log_195" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.SmartRatSwitchIntfMgr" default="D"/>
+      <Command id="m_log_196" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.SmartRatSwitcher" default="D"/>
+      <Command id="m_log_197" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcCodec" default="D"/>
+      <Command id="m_log_198" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.SmRATCdcNoti" default="D"/>
+      <Command id="m_log_199" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.SmartRatInd" default="D"/>
+      <Command id="m_log_200" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaCcciDataHeaderEncoder" default="D"/>
+      <Command id="m_log_201" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaCcciReader" default="D"/>
+      <Command id="m_log_202" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaCcciSender" default="D"/>
+      <Command id="m_log_203" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaControlMsgHandler" default="D"/>
+      <Command id="m_log_204" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaDriver" default="D"/>
+      <Command id="m_log_205" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaDriverAccept" default="D"/>
+      <Command id="m_log_206" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaDriverAdapter" default="D"/>
+      <Command id="m_log_207" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaDriverDeReg" default="D"/>
+      <Command id="m_log_208" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaDriverMessage" default="D"/>
+      <Command id="m_log_209" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaDriverRegFilter" default="D"/>
+      <Command id="m_log_210" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaDriverULIpPkt" default="D"/>
+      <Command id="m_log_211" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaDriverUtilis" default="D"/>
+      <Command id="m_log_212" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaDriverVersion" default="D"/>
+      <Command id="m_log_213" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaFilterRuleReqHandler" default="D"/>
+      <Command id="m_log_214" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaRingBuffer" default="D"/>
+      <Command id="m_log_215" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaShmAccessController" default="D"/>
+      <Command id="m_log_216" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaShmReadMsgHandler" default="D"/>
+      <Command id="m_log_217" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaShmSynchronizer" default="D"/>
+      <Command id="m_log_218" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaShmWriteMsgHandler" default="D"/>
+      <Command id="m_log_219" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.wpfa_iptable_android" default="D"/>
+      <Command id="m_log_220" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaRuleRegister" default="D"/>
+      <Command id="m_log_221" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaParsing" default="D"/>
+      <Command id="m_log_222" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.WpfaRuleContainer" default="D"/>
+      <Command id="m_log_223" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmDC" default="D"/>
+      <Command id="m_log_224" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmDcEvent" default="D"/>
+      <Command id="m_log_225" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmDcUrcHandler" default="D"/>
+      <Command id="m_log_226" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MipcEventHandler" default="D"/>
+      <Command id="m_log_227" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.InterfaceManager" default="D"/>
+      <Command id="m_log_228" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmPhbReq" default="D"/>
+      <Command id="m_log_229" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmPhbUrc" default="D"/>
+      <Command id="m_log_230" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmPhb" default="D"/>
+      <Command id="m_log_231" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmIms" default="D"/>
+      <Command id="m_log_232" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmImsConfigController" default="D"/>
+      <Command id="m_log_233" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmImsConference" default="D"/>
+      <Command id="m_log_234" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmImsDialog" default="D"/>
+      <Command id="m_log_235" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmImsCtlUrcHdl" default="D"/>
+      <Command id="m_log_236" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmImsCtlReqHdl" default="D"/>
+      <Command id="m_log_237" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmEmbmsReq" default="D"/>
+      <Command id="m_log_238" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmEmbmsUrc" default="D"/>
+      <Command id="m_log_239" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmEmbmsUtil" default="D"/>
+      <Command id="m_log_240" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmEmbmsAt" default="D"/>
+      <Command id="m_log_241" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmSimCommReq" default="D"/>
+      <Command id="m_log_242" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmSimCommUrc" default="D"/>
+      <Command id="m_log_243" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmSimBaseHandler" default="D"/>
+      <Command id="m_log_244" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmRadioConfig" default="D"/>
+      <Command id="m_log_245" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmCommSimCtrl" default="D"/>
+      <Command id="m_log_246" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmCommSimOpReq" default="D"/>
+      <Command id="m_log_247" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmRadioCont" default="D"/>
+      <Command id="m_log_248" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmDcPdnManager" default="D"/>
+      <Command id="m_log_249" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmDcUtility" default="D"/>
+      <Command id="m_log_250" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmRadioReq" default="D"/>
+      <Command id="m_log_251" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmCapa" default="D"/>
+      <Command id="m_log_252" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmCapa" default="D"/>
+      <Command id="m_log_253" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmWp" default="D"/>
+      <Command id="m_log_254" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmWp" default="D"/>
+      <Command id="m_log_255" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmOpRadioReq" default="D"/>
+      <Command id="m_log_256" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmOemHandler" default="D"/>
+      <Command id="m_log_257" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmModeCont" default="D"/>
+      <Command id="m_log_258" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmEccNumberController" default="D"/>
+      <Command id="m_log_259" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmEccNumberReqHdlr" default="D"/>
+      <Command id="m_log_260" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmEccNumberUrcHandler" default="D"/>
+      <Command id="m_log_261" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.mipc_lib" default="D"/>
+      <Command id="m_log_262" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.trm_lib" default="D"/>
+      <Command id="m_log_263" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RfxBaseHandler" default="D"/>
+	  <Command id="m_log_264" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmMwi" default="D"/>
+	  <Command id="m_log_265" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmMwi" default="D"/>
+
+      <Command id="m_log_tag_1" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.NetworkStats" default="V"/>
+      <Command id="m_log_tag_2" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.NetworkPolicy" default="V"/>
+      <Command id="m_log_tag_3" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RTC_DAC" default="V"/>
+      <Command id="m_log_tag_4" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcEmbmsReq" default="V"/>
+      <Command id="m_log_tag_5" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcEmbmsUrc" default="V"/>
+      <Command id="m_log_tag_6" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcEmbmsUtil" default="V"/>
+      <Command id="m_log_tag_7" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcEmbmsAt" default="V"/>
+      <Command id="m_log_tag_8" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkEmbmsAdaptor" default="V"/>
+      <Command id="m_log_tag_9" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MTKSST" default="V"/>
+      <Command id="m_log_tag_10" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcNwHdlr" default="V"/>
+      <Command id="m_log_tag_11" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcNwReqHdlr" default="V"/>
+      <Command id="m_log_tag_12" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcNwRTReqHdlr" default="V"/>
+      <Command id="m_log_tag_13" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmcRatSwHdlr" default="V"/>
+      <Command id="m_log_tag_14" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcRatSwCtrl" default="V"/>
+      <Command id="m_log_tag_15" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtcNwCtrl" default="V"/>
+      <Command id="m_log_tag_16" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.MtkPhoneSwitcher" default="V"/>
+      <Command id="m_log_tag_17" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmNwHdlr" default="V"/>
+      <Command id="m_log_tag_18" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmNwReqHdlr" default="V"/>
+      <Command id="m_log_tag_19" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmNwRTReqHdlr" default="V"/>
+      <Command id="m_log_tag_20" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmNwAsyncHdlr" default="V"/>
+      <Command id="m_log_tag_21" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmNwNrtReqHdlr" default="V"/>
+      <Command id="m_log_tag_22" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmNwRatSwHdlr" default="V"/>
+      <Command id="m_log_tag_23" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RmmNwUrcHdlr" default="V"/>
+      <Command id="m_log_tag_24" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.RtmNwCtrl" default="V"/>
+
+      <Command id="m_log_tag_off_1" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_Stack" default="V"/>
+      <Command id="m_log_tag_off_2" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_IF_CH" default="V"/>
+      <Command id="m_log_tag_off_3" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_WAKELOCK" default="V"/>
+      <Command id="m_log_tag_off_4" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_CONFPKG" default="V"/>
+      <Command id="m_log_tag_off_5" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_DISP" default="V"/>
+      <Command id="m_log_tag_off_6" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_UA" default="V"/>
+      <Command id="m_log_tag_off_7" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_MWI" default="V"/>
+      <Command id="m_log_tag_off_8" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_REG" default="V"/>
+      <Command id="m_log_tag_off_9" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_Service" default="V"/>
+      <Command id="m_log_tag_off_10" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_SIPTimer" default="V"/>
+      <Command id="m_log_tag_off_11" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_TRANS" default="V"/>
+      <Command id="m_log_tag_off_12" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_SIPTX" default="V"/>
+      <Command id="m_log_tag_off_13" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_SMS" default="V"/>
+      <Command id="m_log_tag_off_14" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_SOC" default="V"/>
+      <Command id="m_log_tag_off_15" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_DNS" default="V"/>
+      <Command id="m_log_tag_off_16" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_IF_SERVICE" default="V"/>
+      <Command id="m_log_tag_off_17" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_IF_CORE" default="V"/>
+      <Command id="m_log_tag_off_18" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_Auto_Testing" default="V"/>
+      <Command id="m_log_tag_off_19" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_IMCB-CM" default="V"/>
+      <Command id="m_log_tag_off_20" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_IMCB-0" default="V"/>
+      <Command id="m_log_tag_off_21" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_IMCB-1" default="V"/>
+      <Command id="m_log_tag_off_22" name="" ui_type="hidden" cmd_type="set_property" property="persist.log.tag.VoLTE_IMCB-2" default="V"/>
+    </Group>
+  </Category>
+</TelephonySettings>

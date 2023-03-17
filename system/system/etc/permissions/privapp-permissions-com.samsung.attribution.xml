@@ -1,0 +1,6 @@
+<permissions>
+    <privapp-permissions package="com.samsung.attribution">
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="android.permission.INSTALL_SELF_UPDATES"/>
+    </privapp-permissions>
+</permissions>

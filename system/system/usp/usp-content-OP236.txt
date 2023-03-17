@@ -1,0 +1,16 @@
+[Package-start]
+com.mediatek.op236.ims
+[Package-end]
+[Property-start]
+persist.vendor.operator.optr=OP236
+persist.vendor.operator.spec=SPEC0200
+persist.vendor.operator.seg=SEGDEFAULT
+persist.vendor.volte_support=1
+persist.vendor.mtk.volte.enable=1
+persist.vendor.mtk_wfc_support=1
+persist.vendor.mtk.wfc.enable=1
+persist.vendor.vilte_support=1
+persist.vendor.mtk.ims.video.enable=1
+persist.vendor.viwifi_support=1
+persist.vendor.vzw_device_type=0
+[Property-end]

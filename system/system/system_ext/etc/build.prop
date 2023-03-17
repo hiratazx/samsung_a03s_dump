@@ -1,0 +1,26 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=samsung
+ro.product.system_ext.device=a03s
+ro.product.system_ext.manufacturer=samsung
+ro.product.system_ext.model=SM-A037F
+ro.product.system_ext.name=a03snnxx
+ro.system_ext.build.date=Wed Jan 11 17:34:14 KST 2023
+ro.system_ext.build.date.utc=1673426054
+ro.system_ext.build.fingerprint=samsung/a03snnxx/a03s:13/TP1A.220624.014/A037FXXS2CWA3:user/release-keys
+ro.system_ext.build.id=TP1A.220624.014
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=A037FXXS2CWA3
+ro.system_ext.build.version.release=13
+ro.system_ext.build.version.release_or_codename=13
+ro.system_ext.build.version.sdk=33
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+# Auto-added by post_process_props.py
+persist.sys.usb.config=mtp
+# end of file
+

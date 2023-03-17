@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Suitable for dynamic frame rate adjustment
+
+Parameters that:
+
+packagename:Must be configured
+activitys:Allow multiple configurations,Different configurations for specific activities
+slideresponse:This is the switch that changes the frame rate in response to sliding,If the scene is an ultra-low frame rate scene such as an e-book, do not close it,ture:open,false:close
+defaultfps:Not a must,The default 60 hz
+
+ -->
+<table>
+    <enableimeglobalcontrol>true</enableimeglobalcontrol>
+    <defaultimefps>60</defaultimefps>
+    <enablevoiceglobalcontrol>true</enablevoiceglobalcontrol>
+    <defaultvoicefps>30</defaultvoicefps>
+    <globalfps>60</globalfps>
+
+    <!-- app example
+
+    <app>
+    <packagename>com.android.mms</packagename>
+    <activities>
+        <activity>
+            <name>SettingListActivity</name>
+            <fps>10</fps>
+        </activity>
+        <activity>
+            <name>ComposeMessageActivity</name>
+            <fps>90</fps>
+            <imefps>60</imefps>
+            <voicefps>30</voicefps>
+        </activity>
+    </activities>
+    <slideresponse>false</slideresponse>
+    <defaultfps>90</defaultfps>
+    <imefps>90</imefps>
+    <voicefps>60</voicefps>
+    </app>
+
+-->
+
+</table>
