@@ -1,0 +1,17 @@
+#!/vendor/bin/sh
+
+default_fact_prop=$(getprop ro.soc.manufacturer)
+
+if [ "$default_soc_prop" == "" ]; then
+	fact_val=$(cat /sys/devices/soc0/family)
+	/vendor/bin/setprop ro.vendor.soc.manufacturer ${fact_val}
+fi
+
+default_soc_prop=$(getprop ro.soc.model)
+
+if [ "$default_soc_prop" == "" ]; then
+	soc_val=$(cat /sys/devices/soc0/soc_id)
+	/vendor/bin/setprop ro.vendor.soc.model ${soc_val}
+fi
+
+/vendor/bin/setprop ro.vendor.soc.model_ready 1

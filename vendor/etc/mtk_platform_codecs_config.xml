@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-->
+<MediaCodecs>
+    <Decoders>
+        <Video name="color.converter"
+               alwaysColorConvertChecker="true"
+               fetchCcFromBufferManager="false" />
+        <Video name="c2.mtk.mpeg4.decoder"
+               type="video/mp4v-es"
+               driverIntf="proprietary"
+               maxConcurrentInstances="16" />
+        <Video name="c2.mtk.h263.decoder"
+               type="video/3gpp"
+               driverIntf="proprietary"
+               maxConcurrentInstances="16" />
+        <Video name="c2.mtk.avc.decoder"
+               type="video/avc"
+               driverIntf="proprietary"
+               maxConcurrentInstances="16" />
+        <Video name="c2.mtk.avc.decoder.secure"
+               type="video/avc"
+               driverIntf="proprietary"
+               maxConcurrentInstances="1" />
+        <Video name="c2.mtk.hevc.decoder"
+               type="video/hevc"
+               driverIntf="proprietary"
+               maxConcurrentInstances="16" />
+        <!--
+        <Video name="c2.mtk.vpx.decoder"
+               type="video/x-vnd.on2.vp8"
+               driverIntf="proprietary"
+               maxConcurrentInstances="16" />
+        -->
+        <!--
+        <Video name="c2.mtk.mpeg2.decoder"
+               type="video/mpeg2"
+               driverIntf="proprietary"
+               maxConcurrentInstances="16" />
+        <Video name="c2.mtk.vc1.decoder"
+               type="video/x-ms-wmv"
+               driverIntf="proprietary"
+               maxConcurrentInstances="16" />
+        -->
+    </Decoders>
+    <Encoders>
+        <Video name="c2.mtk.h263.encoder"
+               type="video/3gpp"
+               driverIntf="proprietary"
+               maxConcurrentInstances="15"
+               canSwapWidthHeight="true"
+               minWidthAlignment="32 "/>               
+        <Video name="c2.mtk.mpeg4.encoder"
+               type="video/mp4v-es"
+               driverIntf="proprietary"
+               maxConcurrentInstances="16"
+               canSwapWidthHeight="true"
+               minWidthAlignment="32 "/>               
+        <Video name="c2.mtk.avc.encoder"
+               type="video/avc"
+               driverIntf="proprietary"
+               maxConcurrentInstances="16"
+               canSwapWidthHeight="true"
+               minWidthAlignment="32 "/>               
+        <!-- MT6761 don't support hevc -->
+        <!--<Video name="c2.mtk.hevc.encoder"
+               type="video/hevc"
+               driverIntf="proprietary, hevc"
+               maxConcurrentInstances="16" />-->
+    </Encoders>
+</MediaCodecs>

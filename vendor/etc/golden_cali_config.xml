@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+主供
+rear camera:hi1336_txd_mipi_raw : HQ20208296000
+front camera:hi556_txd_mipi_raw : HQ20208294000
+depth camera:gc2375h_cxt_mipi_raw : HQ20207875000
+macro camera:gc02m1_cxt_mipi_raw : HQ20208304000
+
+二供
+
+
+-->
+
+<!-- hs03s_NM code for DEVAL5626-646 by chenweibing at 20220521 start -->
+<!-- hs03s code for SR-AL5625-01-544 by chenweibing at 20210709 start -->
+<Sensors>
+    <Item back_main_camera="hi1336_txd_mipi_raw : HQ20208296000"  back_aux1_camera= "gc2375h_cxt_mipi_raw : HQ20207875000" filepath="/vendor/lib/dualcali_golden_txd_cxt.bin"></Item>
+    <Item back_main_camera="hi1336_txd_mipi_raw : HQ20208296000"  back_aux1_camera= "gc02m1b_ly_mipi_raw : HQ20207879000" filepath="/vendor/lib/dualcali_golden_txd_ly.bin"></Item>
+    <Item back_main_camera="hi1336_txd_mipi_raw : HQ20208296000"  back_aux1_camera= "ov02b1b_jk_mipi_raw : HQ20207899000" filepath="/vendor/lib/dualcali_golden_txd_jk.bin"></Item>
+    <Item back_main_camera="hi1336_txd_mipi_raw : HQ20208296000"  back_aux1_camera= "sc201cs_cxt_mipi_raw : HQ20208935000" filepath="/vendor/lib/dualcali_golden_txd_cxt5.bin"></Item>
+    <Item back_main_camera="gc13053_ly_mipi_raw : HQ20208298000"  back_aux1_camera= "gc2375h_cxt_mipi_raw : HQ20207875000" filepath="/vendor/lib/dualcali_golden_ly_cxt.bin"></Item>
+    <Item back_main_camera="gc13053_ly_mipi_raw : HQ20208298000"  back_aux1_camera= "gc02m1b_ly_mipi_raw : HQ20207879000" filepath="/vendor/lib/dualcali_golden_ly_ly.bin"></Item>
+    <Item back_main_camera="gc13053_ly_mipi_raw : HQ20208298000"  back_aux1_camera= "ov02b1b_jk_mipi_raw : HQ20207899000" filepath="/vendor/lib/dualcali_golden_ly_jk.bin"></Item>
+    <Item back_main_camera="gc13053_ly_mipi_raw : HQ20208298000"  back_aux1_camera= "sc201cs_cxt_mipi_raw : HQ20208935000" filepath="/vendor/lib/dualcali_golden_ly_cxt5.bin"></Item>
+    <Item back_main_camera="hi1336_hlt_mipi_raw : HQ20207953000"  back_aux1_camera= "gc2375h_cxt_mipi_raw : HQ20207875000" filepath="/vendor/lib/dualcali_golden_hlt_cxt.bin"></Item>
+    <Item back_main_camera="hi1336_hlt_mipi_raw : HQ20207953000"  back_aux1_camera= "gc02m1b_ly_mipi_raw : HQ20207879000" filepath="/vendor/lib/dualcali_golden_hlt_ly.bin"></Item>
+    <Item back_main_camera="hi1336_hlt_mipi_raw : HQ20207953000"  back_aux1_camera= "ov02b1b_jk_mipi_raw : HQ20207899000" filepath="/vendor/lib/dualcali_golden_hlt_jk.bin"></Item>
+    <Item back_main_camera="hi1336_hlt_mipi_raw : HQ20207953000"  back_aux1_camera= "sc201cs_cxt_mipi_raw : HQ20208935000" filepath="/vendor/lib/dualcali_golden_hlt_cxt5.bin"></Item>
+    <Item back_main_camera="sc1300cs_ly_mipi_raw : HQ20208934000"  back_aux1_camera= "gc2375h_cxt_mipi_raw : HQ20207875000" filepath="/vendor/lib/dualcali_golden_ly9_cxt.bin"></Item>
+    <Item back_main_camera="sc1300cs_ly_mipi_raw : HQ20208934000"  back_aux1_camera= "gc02m1b_ly_mipi_raw : HQ20207879000" filepath="/vendor/lib/dualcali_golden_ly9_ly.bin"></Item>
+    <Item back_main_camera="sc1300cs_ly_mipi_raw : HQ20208934000"  back_aux1_camera= "ov02b1b_jk_mipi_raw : HQ20207899000" filepath="/vendor/lib/dualcali_golden_ly9_jk.bin"></Item>
+    <Item back_main_camera="sc1300cs_ly_mipi_raw : HQ20208934000"  back_aux1_camera= "sc201cs_cxt_mipi_raw : HQ20208935000" filepath="/vendor/lib/dualcali_golden_ly9_cxt5.bin"></Item>
+</Sensors>
+<!-- hs03s code for SR-AL5625-01-544 by chenweibing at 20210709 end -->
+<!-- hs03s_NM code for DEVAL5626-646 by chenweibing at 20220521 end -->
